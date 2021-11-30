@@ -8,3 +8,6 @@ git commit
 git push
 
 itu aja, kalau bisa bikin branch sekalian, ntar bikin pull request aku tes in
+
+# Web Design
+![Screenshot](Web-Design.png)
