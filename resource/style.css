@@ -2,9 +2,4 @@
 /*@import url("./filelain.css");*/
 /* './' : file di folder ini */
 /* 'namafile.css' buat filenya, semua ditaruh di folder resource */
-
-h1 {
-    font-family: "Comic Sans MS";
-    font-size: "50px";
-    color: "magenta";
-}
+@import url("./home.css")
