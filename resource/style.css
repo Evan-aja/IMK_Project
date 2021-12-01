@@ -1,5 +1,0 @@
-/* contoh import */
-/*@import url("./filelain.css");*/
-/* './' : file di folder ini */
-/* 'namafile.css' buat filenya, semua ditaruh di folder resource */
-@import url("./home.css");
