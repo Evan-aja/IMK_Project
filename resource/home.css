@@ -1,5 +1,5 @@
 /* tombol nya navbar */
-menuutama{
+.menuutama{
     position: absolute;
     width: 110.7px;
     height: 26.05px;
@@ -12,8 +12,20 @@ menuutama{
     font-size: 18.8372px;
     line-height: 26px;
     text-align: center;
+    
+    color: #FFFFFF;    
 }
-tentang{
+.kotakmenu{
+    position: absolute;
+    width: 135.12px;
+    height: 35px;
+    left: 773.86px;
+    top: 32px;
+    
+    background: #8B7FDF;
+    border-radius: 6.51161px;
+}
+.tentang{
     position: absolute;
     width: 70.81px;
     height: 26.05px;
@@ -28,7 +40,7 @@ tentang{
     
     color: #7969E8;    
 }
-bantuan{
+.bantuan{
     position: absolute;
     width: 72.44px;
     height: 26.05px;
@@ -43,7 +55,7 @@ bantuan{
     
     color: #7969E8;
 }
-akun{
+.akun{
     position: absolute;
     width: 56.16px;
     height: 26.05px;
@@ -61,7 +73,7 @@ akun{
 }
 
 /* floating cust service */
-floatcs{
+.floatcs{
     position: absolute;
     width: 571px;
     height: 654px;
@@ -70,7 +82,7 @@ floatcs{
 }
 
 /* logo navbar */
-logo{
+.logo{
     position: absolute;
     width: 197px;
     height: 40px;
@@ -81,7 +93,7 @@ logo{
 }
 
 /* navbar */
-navbar{
+.navbar{
     position: absolute;
     width: 1278px;
     height: 94px;
@@ -90,7 +102,7 @@ navbar{
 }
 
 /* bottom bar */
-bbar{
+.bbar{
     position: absolute;
     width: 1280px;
     height: 356px;
@@ -99,7 +111,7 @@ bbar{
 }
 
 /* Placeholder buat scrollable tile kiri kanan */
-horizonScroll{
+.horizonScroll{
     position: absolute;
     width: 1230px;
     height: 257px;
@@ -109,7 +121,7 @@ horizonScroll{
 }
 
 /* Artikel */
-artikel{
+.artikel{
     position: absolute;
     width: 1280px;
     height: 483px;
@@ -118,7 +130,7 @@ artikel{
 }
 
 /* gambar di dalem artikel */
-gartikel{
+.gartikel{
     position: absolute;
     width: 414.01px;
     height: 393px;
@@ -127,7 +139,7 @@ gartikel{
 }
 
 /* Tombol dalam banner Artikel */
-bartikel{
+.bartikel{
     position: absolute;
     width: 246px;
     height: 43px;
@@ -136,7 +148,7 @@ bartikel{
 }
 
 /* DISKUSI PELANCONG */
-diskpel{
+.diskpel{
     position: absolute;
     visibility: hidden;
     width: nanpx;
@@ -145,7 +157,7 @@ diskpel{
     top: 873px;
 }
 /* button{1,2,3,4} */
-b1{
+.b1{
     position: absolute;
     width: 129px;
     height: 36.24px;
@@ -155,7 +167,7 @@ b1{
     background: #8B7FDF;
     border-radius: 7.24719px;
 }
-b2{
+.b2{
     position: absolute;
     width: 129px;
     height: 36.24px;
@@ -166,7 +178,7 @@ b2{
     box-sizing: border-box;
     border-radius: 7.24719px;
 }
-b3{
+.b3{
     position: absolute;
     width: 129px;
     height: 36.24px;
@@ -177,7 +189,7 @@ b3{
     box-sizing: border-box;
     border-radius: 7.24719px;
 }
-b4{
+.b4{
     position: absolute;
     width: 129px;
     height: 36.24px;
@@ -190,7 +202,7 @@ b4{
 }
 
 /* title */
-titles{
+.titles{
     position: absolute;
     width: 897px;
     height: 46px;
@@ -207,7 +219,7 @@ titles{
 }
 
 /* search bar */
-search{
+.search{
     position: absolute;
     width: 549px;
     height: 54px;
@@ -216,7 +228,7 @@ search{
 }
 
 /* banner */
-banner{
+.banner{
     position: absolute;
     width: 1280px;
     height: 219px;
@@ -226,7 +238,7 @@ banner{
     filter: drop-shadow(0px 4px 22px #BEB6F1);
 }
 /* banner shadow */
-banners{
+.banners{
     position: absolute;
     width: 1280px;
     height: 219px;
