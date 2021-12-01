@@ -1,12 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* navbar */
+.navbar{
+    position: absolute;
+    width: 1278px;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+}
 /* tombol nya navbar */
-.menuutama{
+.logo{
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 48px;
+    top: 27px;
+
+    background: url("./logo.png");
+}
+.menulanding{
     position: absolute;
     width: 110.7px;
     height: 26.05px;
-    left: 785.26px;
+    /* left: 785.26px; */
+    right: 26%;
     top: 36.07px;
     
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18.8372px;
@@ -15,60 +34,75 @@
     
     color: #FFFFFF;    
 }
-.kotakmenu{
+.kotakmenulanding{
     position: absolute;
     width: 135.12px;
     height: 35px;
-    left: 773.86px;
+    /* left: 773.86px; */
+    right: 27%;
     top: 32px;
     
     background: #8B7FDF;
     border-radius: 6.51161px;
 }
-.tentang{
+.tentanglanding{
     position: absolute;
-    width: 70.81px;
+    width: 110.7px;
     height: 26.05px;
-    left: 945.63px;
+    /* left: 945.63px; */
+    right: 17%;
     top: 36.07px;
     
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18.8372px;
-    line-height: 26px;
-    
-    color: #7969E8;    
-}
-.bantuan{
-    position: absolute;
-    width: 72.44px;
-    height: 26.05px;
-    left: 1055.49px;
-    top: 36.07px;
-    
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18.8372px;
-    line-height: 26px;
-    
-    color: #7969E8;
-}
-.akun{
-    position: absolute;
-    width: 56.16px;
-    height: 26.05px;
-    left: 1158.98px;
-    top: 36.07px;
-    
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18.8372px;
     line-height: 26px;
     text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
     
+    color: #7969E8;    
+}
+.bantuanlanding{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 1055.49px; */
+    right: 8%;
+    top: 36.07px;
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #7969E8;
+}
+.akunlanding{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 1158.98px; */
+    right: 0%;
+    top: 36.07px;
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
     color: #7969E8;
 }
 
@@ -90,15 +124,6 @@
     top: 27px;
     
     background: url(logo.png);
-}
-
-/* navbar */
-.navbar{
-    position: absolute;
-    width: 1278px;
-    height: 94px;
-    left: 0px;
-    top: 0px;
 }
 
 /* bottom bar */
@@ -156,7 +181,7 @@
     left: 0px;
     top: 873px;
 }
-/* button{1,2,3,4} */
+/* button{1,2,3,4} dibawah search bar */
 .b1{
     position: absolute;
     width: 129px;
@@ -201,15 +226,16 @@
     border-radius: 7.24719px;
 }
 
-/* title */
+/* title (yang "temukan destinasi terbaikmu....)*/
 .titles{
     position: absolute;
-    width: 897px;
-    height: 46px;
-    left: 191px;
-    top: 170px;
+    width: 100%;
+    /* height: 46px; */
+    /* left: 191px; */
+    top: 165px;
+    text-align: center;
 
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 39.4286px;
@@ -230,10 +256,10 @@
 /* banner */
 .banner{
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 219px;
     left: 0px;
-    top: 96px;
+    top: 85px;
     
     filter: drop-shadow(0px 4px 22px #BEB6F1);
 }
