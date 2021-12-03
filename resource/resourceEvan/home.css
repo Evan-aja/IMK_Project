@@ -3,6 +3,9 @@
     font-family: 'Nunito', sans-serif;
     font-style: normal;
 }
+.colorblocked{
+    color: #FFFFFF
+}
 /* navbar */
 .navbar{
     position: absolute;
