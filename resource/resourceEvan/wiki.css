@@ -29,7 +29,7 @@
     width: 120.7px;
     height: 26.05px;
     /* left: 785.26px; */
-    right: 25.5%;
+    right: 340px;
     top: 36.07px;
     
     font-weight: 600;
@@ -47,7 +47,7 @@
     width: 110.7px;
     height: 26.05px;
     /* left: 945.63px; */
-    right: 16.8%;
+    right: 230px;
     top: 36.07px;
     
     font-weight: 600;
@@ -65,7 +65,7 @@
     width: 110.7px;
     height: 26.05px;
     /* left: 1055.49px; */
-    right: 8%;
+    right: 100px;
     top: 36.07px;
     
     font-weight: 600;
@@ -82,7 +82,7 @@
     position: absolute;
     width: 103px;
     height: 35px;
-    right: 8.5%;
+    right: 120px;
     top: 32px;
 
     background: #8B7FDF;
@@ -93,7 +93,7 @@
     width: 110.7px;
     height: 26.05px;
     /* left: 1158.98px; */
-    right: 1%;
+    right: 20px;
     top: 36.07px;
     
     font-weight: 600;
@@ -363,4 +363,99 @@ color: #4F4F4F;
     outline: none;
 
     color: #4F4F4F;
+}
+.search{
+    /* Group 188 */
+
+    position: absolute;
+    width: 238px;
+    height: 41px;
+    right: 33px;
+    /* left: 708px; */
+    top: 33px;
+
+
+
+    /* Rectangle 512 */
+
+    border: 1px solid #7B61FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+    /* Cari permasalahanmu */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: rgba(79, 79, 79, 0.5);
+}
+.frame{
+    /* Frame 5 */
+
+    position: absolute;
+    /* width: 80%; */
+    height: 572px;
+    left: 210px;
+    right: 30px;
+    top: 126px;
+    overflow-y: scroll;
+
+    border: 1px solid #7B61FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.title{
+    /* Judul Artikel */
+
+    position: absolute;
+    width: 217px;
+    height: 43px;
+    left: 33px;
+    top: 31px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #4F4F4F;
+}
+.desc{
+    position: absolute;
+    width: 95%;
+    height: 485px;
+    right:33px;
+    left: 33px;
+    top: 77px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 60px;
+
+    color: #17282F;
+}
+.subtitle{
+    /* Subjudul Artikel */
+
+    position: absolute;
+    width: 95%;
+    height: 485px;
+    right:33px;
+    left: 33px;
+    top: 135px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #17282F;
 }
