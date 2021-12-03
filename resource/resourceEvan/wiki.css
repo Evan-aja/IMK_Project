@@ -148,8 +148,8 @@
 }
 .ind{
     position: absolute;
-    width: 198px;
-    height: 584px;
+    width: 180px;
+    height: 20px;
     left: 30px;
     top: 126px;
 
@@ -293,8 +293,8 @@
     /* Index Wiki Bahasa */
 
     position: absolute;
-    width: 198px;
-    height: 584px;
+    width: 180px;
+    height: 20px;
     left: 30px;
     top: 265px;
 
