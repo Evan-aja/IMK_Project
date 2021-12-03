@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+}
+/* navbar */
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+}
+/* tombol nya navbar */
+.logo{
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 48px;
+    top: 27px;
+
+    background: url("./logo.png");
+}
+.menu{
+    position: absolute;
+    width: 120.7px;
+    height: 26.05px;
+    /* left: 785.26px; */
+    right: 25.5%;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #7969E8;    
+}
+.tentang{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 945.63px; */
+    right: 16.8%;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #7969E8;    
+}
+.bantuan{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 1055.49px; */
+    right: 8%;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #FFFFFF;
+}
+.kotaknya{
+    position: absolute;
+    width: 103px;
+    height: 35px;
+    right: 8.5%;
+    top: 32px;
+
+    background: #8B7FDF;
+    border-radius: 6.51161px;
+}
+.akun{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 1158.98px; */
+    right: 1%;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #7969E8;
+}
+.judul{
+    position: absolute;
+    width: 525px;
+    height: 82.03px;
+    left: 135px;
+    top: 140px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 69.376px;
+    line-height: 95px;
+
+    color: #7969E8;
+}
+.subjudul{
+    position: absolute;
+    width: 295px;
+    height: 28.8px;
+    left: 139px;
+    top: 225px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.3642px;
+    line-height: 33px;
+
+    color: #7969E8;
+}
+.b1{
+    /* primary1 */
+
+    position: absolute;
+    width: 312.98px;
+    height: 52.16px;
+    left: 831px;
+    top: 301px;
+
+
+
+    /* Rectangle 3 */
+
+    position: absolute;
+    /* left: 0%;
+    right: 10%;
+    top: 0%;
+    bottom: 0%; */
+
+    background: #8B7FDF;
+    border-radius: 6.9902px;
+
+
+    /* Button */
+
+    position: absolute;
+    /* left: 8.49%;
+    right: 8.31%;
+    top: 22.28%;
+    bottom: 23.99%; */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.9678px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.b2{
+    /* primary1 */
+
+    position: absolute;
+    width: 312.98px;
+    height: 52.16px;
+    left: 831px;
+    top: 385.92px;
+
+
+
+    /* Rectangle 3 */
+
+    position: absolute;
+    /* left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; */
+
+    background: #8B7FDF;
+    border-radius: 6.9902px;
+
+
+    /* Button */
+
+    position: absolute;
+    /* left: 8.49%;
+    right: 8.31%;
+    top: 22.28%;
+    bottom: 23.99%; */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.9678px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.b3{
+    /* primary1 */
+
+    position: absolute;
+    width: 312.98px;
+    height: 52.16px;
+    left: 831px;
+    top: 470.84px;
+
+
+
+    /* Rectangle 3 */
+
+    position: absolute;
+    /* left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; */
+
+    background: #8B7FDF;
+    border-radius: 6.9902px;
+
+
+    /* Button */
+
+    position: absolute;
+    /* left: 8.49%;
+    right: 8.31%;
+    top: 22.28%;
+    bottom: 23.99%; */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.9678px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
