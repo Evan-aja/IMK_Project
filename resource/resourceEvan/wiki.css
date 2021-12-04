@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+}
+.colorblocked{
+    color: #FFFFFF
+}
+.colorunblocked{
+    color: #7969E8;    
+}
+/* navbar */
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+}
+/* tombol nya navbar */
+.logo{
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 48px;
+    top: 27px;
+
+    background: url("./logo.png");
+}
+.menu{
+    position: absolute;
+    width: 120.7px;
+    height: 26.05px;
+    /* left: 785.26px; */
+    right: 340px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #7969E8;    
+}
+.tentang{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 945.63px; */
+    right: 230px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #7969E8;    
+}
+.bantuan{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 1055.49px; */
+    right: 100px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #FFFFFF;
+}
+.kotaknya{
+    position: absolute;
+    width: 103px;
+    height: 35px;
+    right: 120px;
+    top: 32px;
+
+    background: #8B7FDF;
+    border-radius: 6.51161px;
+}
+.akun{
+    position: absolute;
+    width: 80.7px;
+    height: 26.05px;
+    /* left: 1158.98px; */
+    right: 30px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #7969E8;
+}
+.return{
+    /* primary */
+
+    position: absolute;
+    width: 135.82px;
+    height: 42.8px;
+    left: 30px;
+    top: 490px;
+
+
+
+    /* Rectangle 3 */
+
+    position: absolute;
+    /* left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; */
+
+    background: #8B7FDF;
+    border-radius: 5.7622px;
+
+
+    /* Button */
+
+    position: absolute;
+    /* left: 8.49%;
+    right: 8.31%;
+    top: 22.28%;
+    bottom: 23.99%; */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.9329px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.ind{
+    position: absolute;
+    width: 180px;
+    height: 20px;
+    left: 30px;
+    top: 126px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23.1429px;
+    line-height: 32px;
+
+    color: #4F4F4F;
+}
+.index1{
+    /* underlined text */
+
+    position: absolute;
+    width: 104px;
+    height: 21px;
+    left: 20px;
+    top: 159px;
+
+
+
+    /* Index 1 */
+
+    position: absolute;
+    /* width: 95px;
+    height: 25px;
+    left: 4px;
+    top: -2px; */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.index2{
+    /* underlined text */
+
+    position: absolute;
+    width: 104px;
+    height: 21px;
+    left: 20px;
+    top: 182px;
+
+
+
+    /* Index 1 */
+
+    position: absolute;
+    /* width: 95px;
+    height: 25px;
+    left: 4px;
+    top: -2px; */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.index3{
+    /* underlined text */
+
+    position: absolute;
+    width: 104px;
+    height: 21px;
+    left: 20px;
+    top: 205px;
+
+
+
+    /* Index 1 */
+
+    position: absolute;
+    /* width: 95px;
+    height: 25px;
+    left: 4px;
+    top: -2px; */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.index4{
+    /* underlined text */
+
+    position: absolute;
+    width: 104px;
+    height: 21px;
+    left: 20px;
+    top: 228px;
+
+
+
+    /* Index 1 */
+
+    position: absolute;
+    /* width: 95px;
+    height: 25px;
+    left: 4px;
+    top: -2px; */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.bhs{
+    /* Index Wiki Bahasa */
+
+    position: absolute;
+    width: 180px;
+    height: 20px;
+    left: 30px;
+    top: 265px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23.1429px;
+    line-height: 32px;
+
+    color: #4F4F4F;
+}
+.bhs1{
+/* Index Wiki Bahasa */
+
+    position: absolute;
+    /* width: 198px; */
+    height: 20px;
+    left: 36px;
+    top: 302px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.bhs2{
+/* Index Wiki Bahasa */
+
+position: absolute;
+/* width: 198px; */
+height: 20px;
+left: 36px;
+top: 324px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+background-color: transparent;
+border: none;
+outline: none;
+
+color: #4F4F4F;
+}
+.bhs3{
+    position: absolute;
+    /* width: 198px; */
+    height: 20px;
+    left: 36px;
+    top: 346px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.search{
+    /* Group 188 */
+
+    position: absolute;
+    width: 238px;
+    height: 41px;
+    right: 33px;
+    /* left: 708px; */
+    top: 33px;
+
+
+
+    /* Rectangle 512 */
+
+    border: 1px solid #7B61FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+    /* Cari permasalahanmu */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: rgba(79, 79, 79, 0.5);
+}
+.frame{
+    /* Frame 5 */
+
+    position: absolute;
+    /* width: 80%; */
+    height: 572px;
+    left: 210px;
+    right: 30px;
+    top: 126px;
+    overflow-y: scroll;
+
+    border: 1px solid #7B61FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.title{
+    /* Judul Artikel */
+
+    position: absolute;
+    width: 217px;
+    height: 43px;
+    left: 33px;
+    top: 31px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #4F4F4F;
+}
+.desc{
+    position: absolute;
+    width: 95%;
+    height: 485px;
+    right:33px;
+    left: 33px;
+    top: 77px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 60px;
+
+    color: #17282F;
+}
+.subtitle{
+    /* Subjudul Artikel */
+
+    position: absolute;
+    width: 95%;
+    height: 485px;
+    right:33px;
+    left: 33px;
+    top: 135px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #17282F;
+}
