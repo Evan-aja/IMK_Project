@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.textset{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.8372px;
+    color:  #7969E8;    
+}
+.kotak{
+    border:1px 1px #7969E8;
+    background-color: #7969E8;
+    color: white;
+    padding: 10px 16px 10px 16px;
+    border-radius: 6.51161px;
+}
