@@ -6,6 +6,9 @@
 .colorblocked{
     color: #FFFFFF
 }
+.colorunblocked{
+    color: #7969E8;    
+}
 /* navbar */
 .navbar{
     position: absolute;
@@ -90,10 +93,10 @@
 }
 .akun{
     position: absolute;
-    width: 110.7px;
+    width: 80.7px;
     height: 26.05px;
     /* left: 1158.98px; */
-    right: 20px;
+    right: 30px;
     top: 36.07px;
     
     font-weight: 600;
