@@ -10,13 +10,13 @@ git push
 itu aja, kalau bisa bikin branch sekalian, ntar bikin pull request aku tes in
 
 ## CSS
-1. buat file css nya sendiri di ./resource/
-2. masukin import ke ./resource/style.css jadi semua html bisa sama import nya kek index.html
-3. format import ke style.css udah aku kasih
-4. masukin kode utama halamannya di index.html
-5. tiap halaman baru yang dibuka via link kasih href di index.html dan buat file html baru pake nama 'nama-laman.html'
-6. index.html khusus buat landing page aja
-7. penjelasan lain ada di dalam masing asing file utama.
+1. buat folder css nya sendiri di ./resource/
+2. buat file .css didalem folder nya sendiri
+3. import independen, kalau perlu kode dari file lain dicopy aja source code nya
+4. semua halaman kudu terhubung dari navbar
+5. index.html khusus buat landing page aja
+6. pake branch masing masing development nya
+7. abis pull request dan diterima, jan lupa git rebase branch nya
 
 buat langkah tambahan masukin aja ke readme ini
 
