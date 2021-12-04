@@ -96,3 +96,73 @@
     right: 2%; 
     width: 55px;
 }
+
+/*
+    masuk.html
+*/
+.textundertombol2{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    padding-top: 100px;
+    text-align: center;
+}
+.lupaPas{
+    margin-top: 13px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*
+    Lupapass_hp.html
+*/
+.menudaftartitle2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.menudaftar2{
+    position: relative;
+    width: 390px;
+    height: 510px;
+    border-radius: 20px;
+    border:1px 1px #7969E8;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.7px .4px 6px 1px #000;
+    display: block;
+    margin-top: 7%;
+    margin-left: 30%;
+    margin-bottom: 7%;
+}
+.menudaftar2 a {
+    text-decoration: underline;
+    color: #000;
+}
+.lupaPas2{
+    margin-top: 13px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    padding-top: 10px;
+    text-align: left;
+}
+.tombol2{
+    position: relative;
+    background-color: #7969E8;
+    color: white;
+    padding: 5px 40px 5px 40px;
+    border-radius: 5px;
+    border:1px 1px #7969E8;
+    font-size: 20px;
+    display: inline-block;
+    left: 28%;
+    margin-top: 120px;
+}
+
+.textundertombol3{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    padding-top: 30px;
+    text-align: center;
+}
