@@ -4,32 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet prefetch" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet prefetch" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../resource/resourceEvan/faq.css">
+    <link rel="stylesheet" href="../resource/resourceEvan/collapsible.css">
     <title>Document</title>
 </head>
 <body>
     <nav class=navbar>
-        <img src="../resource/resourceEvan/logo.png" class="logo">
-        <a href="../index.html" class="colorunblocked">
-            <button class="menu">Menu Utama</button>
-        </a>
-        <a href="" class="colorunblocked">
-            <button class="tentang">Tentang</button>
-        </a>
-        <a href="./MainMenu.html" class="colorblocked">
-            <button class="bantuan kotaknya">Bantuan</button>
-        </a>
-        <a href="" class="colorunblocked">
-            <button class="akun">Akun</button>
-        </a>
+        <a href="../index.html"><img src="../resource/resourceEvan/logo.png" class="logo"></a>
+        <a href="../index.html" class="colorunblocked"><button class="menu">Menu Utama</button></a>
+        <a href="" class="colorunblocked"><button class="tentang">Tentang</button></a>
+        <a href="./MainMenu.html" class="colorblocked"><button class="bantuan kotaknya">Bantuan</button></a>
+        <a href="" class="colorunblocked"><button class="akun">Akun</button></a>
     </nav>
+    <side>
+        <a href="./MainMenu.html" class="colorblocked">
+            <button class="return">
+                Kembali
+            </button>
+        </a>
+        <index>
+            <p class="ind">Index Bantuan</p>
+            <a href="./MainMenu.html"><span class="index1">Home</span></a>
+            <a href="./Wiki.html"><span class="index2">Wiki</span></a>
+            <a href="./FAQ.html"><span class="index3">FAQ</span></a>
+            <a href="./?"><span class="index4">Bugs & Reports</span></a>
+        </index>
+        <bahasa>
+            <p class="bhs">Bahasa</p>
+            <span class="bhs1">Indonesia</span>
+            <span class="bhs2">Inggris</span>
+            <span class="bhs3">Perancis</span>
+        </bahasa>
+    </side>
     <box class="frame">
         <form action="">
             <input type="text" placeholder="Cari permasalahanmu" class="search">
         </form>
-        <h1 class="title">Judul Artikel</h1>
-        
+        <h1 class="title">FAQ</h1>
+        <box class="framec">
+            <button class="collapsible">Lorem ipsum dolor sit amet?</button>
+            <div class="content">
+                <p>Consectetur adipiscing elit. Proin scelerisque tortor tellus, et interdum orci consectetur eget. Nullam interdum orci non vulputate vulputate. Ut ac sapien eu quam tempor ultrices ut a orci. Quisque quis sapien magna. Praesent iaculis ex risus, non efficitur lorem pretium nec. In scelerisque dignissim odio non consequat. Nulla facilisi.</p>
+            </div>
+            <button class="collapsible">Morbi vitae felis sed tortor porttitor semper?</button>
+            <div class="content">
+                <p>Suspendisse finibus placerat libero, sit amet ultricies urna pellentesque eget? Etiam ut nisl sit amet lectus mollis sodales et ac arcu. Ut sit amet metus non purus gravida hendrerit. Duis nisl dui, blandit eu semper vestibulum, semper a nisl. Curabitur ultricies at sem quis pharetra. Phasellus cursus magna ipsum, at dapibus massa ultrices in. Nam posuere tortor a lacus molestie porta.</p>
+            </div>
+            <button class="collapsible">Cras imperdiet quam vel luctus venenatis?</button>
+            <div class="content">
+                <p>Suspendisse finibus placerat libero, sit amet ultricies urna pellentesque eget? Etiam ut nisl sit amet lectus mollis sodales et ac arcu. Ut sit amet metus non purus gravida hendrerit. Duis nisl dui, blandit eu semper vestibulum, semper a nisl. Curabitur ultricies at sem quis pharetra. Phasellus cursus magna ipsum, at dapibus massa ultrices in. Nam posuere tortor a lacus molestie porta.</p>
+            </div>
+            <button class="collapsible">Nulla pulvinar condimentum dui at hendrerit?</button>
+            <div class="content">
+                <p>Suspendisse finibus placerat libero, sit amet ultricies urna pellentesque eget? Etiam ut nisl sit amet lectus mollis sodales et ac arcu. Ut sit amet metus non purus gravida hendrerit. Duis nisl dui, blandit eu semper vestibulum, semper a nisl. Curabitur ultricies at sem quis pharetra. Phasellus cursus magna ipsum, at dapibus massa ultrices in. Nam posuere tortor a lacus molestie porta.</p>
+            </div>
+            <button class="collapsible">Nunc vel metus eget sem eleifend fermentum?</button>
+            <div class="content">
+                <p>Suspendisse finibus placerat libero, sit amet ultricies urna pellentesque eget? Etiam ut nisl sit amet lectus mollis sodales et ac arcu. Ut sit amet metus non purus gravida hendrerit. Duis nisl dui, blandit eu semper vestibulum, semper a nisl. Curabitur ultricies at sem quis pharetra. Phasellus cursus magna ipsum, at dapibus massa ultrices in. Nam posuere tortor a lacus molestie porta.</p>
+            </div>
+        </box>
     </box>
+    <script src="../resource/resourceEvan/collapsible.js"></script>
 </body>
 </html>

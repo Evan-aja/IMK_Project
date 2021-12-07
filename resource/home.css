@@ -3,10 +3,21 @@
     font-family: 'Nunito', sans-serif;
     font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+}
+.colorblocked{
+    color: #FFFFFF
+}
+.colorunblocked{
+    color: #7969E8;    
+}
 /* navbar */
 .navbar{
     position: absolute;
-    width: 1278px;
+    width: 100%;
     height: 94px;
     left: 0px;
     top: 0px;
@@ -21,38 +32,16 @@
 
     background: url("./logo.png");
 }
-.menulanding{
+.menu:hover,.tentang:hover,.bantuan:hover,.akun:hover{
+    border: none;
+    outline: none;
+}
+.menu{
     position: absolute;
-    width: 110.7px;
+    width: 120.7px;
     height: 26.05px;
     /* left: 785.26px; */
-    right: 26%;
-    top: 36.07px;
-    
-    font-weight: 600;
-    font-size: 18.8372px;
-    line-height: 26px;
-    text-align: center;
-    
-    color: #FFFFFF;    
-}
-.kotakmenulanding{
-    position: absolute;
-    width: 135.12px;
-    height: 35px;
-    /* left: 773.86px; */
-    right: 27%;
-    top: 32px;
-    
-    background: #8B7FDF;
-    border-radius: 6.51161px;
-}
-.tentanglanding{
-    position: absolute;
-    width: 110.7px;
-    height: 26.05px;
-    /* left: 945.63px; */
-    right: 17%;
+    right: 320px;
     top: 36.07px;
     
     font-weight: 600;
@@ -63,14 +52,25 @@
     border: none;
     outline: none;
     
-    color: #7969E8;    
+    color: #FFFFFF;    
 }
-.bantuanlanding{
+.kotaknya{
+    position: absolute;
+    width: 135.12px;
+    height: 35px;
+    /* left: 773.86px; */
+    right: 340px;
+    top: 32px;
+    
+    background: #8B7FDF;
+    border-radius: 6.51161px;
+}
+.bantuan{
     position: absolute;
     width: 110.7px;
     height: 26.05px;
     /* left: 1055.49px; */
-    right: 8%;
+    right: 110px;
     top: 36.07px;
     
     font-weight: 600;
@@ -83,12 +83,30 @@
     
     color: #7969E8;
 }
-.akunlanding{
+.tentang{
     position: absolute;
     width: 110.7px;
     height: 26.05px;
+    /* left: 945.63px; */
+    right: 220px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #7969E8;    
+}
+.akun{
+    position: absolute;
+    width: 80.7px;
+    height: 26.05px;
     /* left: 1158.98px; */
-    right: 0%;
+    right: 30px;
     top: 36.07px;
     
     font-weight: 600;
