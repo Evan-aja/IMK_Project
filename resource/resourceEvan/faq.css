@@ -4,7 +4,7 @@
     font-style: normal;
 }
 .colorblocked{
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 .colorunblocked{
     color: #7969E8;    
@@ -26,6 +26,10 @@
     top: 27px;
 
     background: url("./logo.png");
+}
+.menu:hover,.tentang:hover,.bantuan:hover,.akun:hover{
+    border: none;
+    outline: none;
 }
 .menu{
     position: absolute;
@@ -70,6 +74,7 @@
     /* left: 1055.49px; */
     right: 100px;
     top: 36.07px;
+    padding-top: 5px;
     
     font-weight: 600;
     font-size: 18.8372px;
@@ -142,12 +147,11 @@
     /* Frame 5 */
 
     position: absolute;
-    /* width: 80%; */
-    height: 572px;
-    left: 30px;
+    width: 80%;
+    height: 80vh;
     right: 30px;
-    top: 126px;
-    overflow-y: scroll;
+    top: 100px;
+    overflow: hidden;
 
     border: 1px solid #7B61FF;
     box-sizing: border-box;
@@ -167,6 +171,239 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
+
+    color: #4F4F4F;
+}
+.return{
+    /* primary */
+
+    position: absolute;
+    width: 135.82px;
+    height: 42.8px;
+    left: 30px;
+    top: 490px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 10px;
+
+    /* Rectangle 3 */
+
+    position: absolute;
+
+    background: #8B7FDF;
+    border-radius: 5.7622px;
+
+
+    /* Button */
+
+    position: absolute;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.9329px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.ind{
+    position: absolute;
+    width: 180px;
+    height: 20px;
+    left: 30px;
+    top: 126px;
+    text-align: left;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23.1429px;
+    line-height: 32px;
+
+    color: #4F4F4F;
+}
+.index1{
+    /* underlined text */
+
+    position: absolute;
+    width: 104px;
+    height: 21px;
+    left: 15px;
+    top: 159px;
+    text-align: left;
+
+
+
+    /* Index 1 */
+
+    position: absolute;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.index2{
+    /* underlined text */
+
+    position: absolute;
+    width: 104px;
+    height: 21px;
+    left: 10px;
+    top: 182px;
+    text-align: left;
+
+
+    /* Index 1 */
+
+    position: absolute;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.index3{
+    /* underlined text */
+
+    position: absolute;
+    width: 104px;
+    height: 21px;
+    left: 10px;
+    top: 205px;
+    text-align: left;
+
+    position: absolute;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.index4{
+    /* underlined text */
+
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 8px;
+    top: 228px;
+    text-align: left;
+
+
+
+    /* Index 1 */
+
+    position: absolute;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.bhs{
+    /* Index Wiki Bahasa */
+
+    position: absolute;
+    width: 180px;
+    height: 20px;
+    left: 30px;
+    top: 265px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23.1429px;
+    line-height: 32px;
+
+    color: #4F4F4F;
+}
+.bhs1{
+/* Index Wiki Bahasa */
+
+    position: absolute;
+    /* width: 198px; */
+    height: 20px;
+    left: 36px;
+    top: 302px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #4F4F4F;
+}
+.bhs2{
+/* Index Wiki Bahasa */
+
+position: absolute;
+/* width: 198px; */
+height: 20px;
+left: 36px;
+top: 324px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+background-color: transparent;
+border: none;
+outline: none;
+
+color: #4F4F4F;
+}
+.bhs3{
+    position: absolute;
+    /* width: 198px; */
+    height: 20px;
+    left: 36px;
+    top: 346px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
 
     color: #4F4F4F;
 }
