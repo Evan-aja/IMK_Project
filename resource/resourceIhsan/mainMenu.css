@@ -117,13 +117,19 @@ color: white;
     overflow: hidden;
 }
 
+.terdekat{
+    border-style: solid;
+    border-color: #8B7FDF;
+    border-width: 2px;
+    color: white;
+    border-radius: 7px;
+}
+
 .filter ul li a {
     color: #8B7FDF;
     font-weight:bold;
     text-align: center;
     padding: 10px 20px 10px 20px;
-    
-
 }
 
 .filter ul li a:hover {
@@ -140,6 +146,8 @@ color: white;
     top: 0;
     
 }
+
+
 
 .wrapper-wisata{
     padding: 10px 15px 10px 15px ;
@@ -180,7 +188,6 @@ color: white;
 }
 
 .body-card{
-    
     padding-left: 3px;
     height: 70px;
     white-space: nowrap;
@@ -188,12 +195,13 @@ color: white;
 
 
 .jarak{
-    margin-left: 125px;
+    position: absolute;
+    margin-left: 250px;
 }
 
 .detail{
-   
-    display: flex;
+    display: flex ;
+    right: 0;
 }
 
 ::-webkit-scrollbar {
@@ -246,10 +254,11 @@ color: white;
 }
 
 .gambar-artikel{
+    position: relative;
     margin-right: 200px;
     margin-top:50px;
     right: 0;
-    position: absolute;
+    margin-left: 900px;
     z-index: 1;
 }
 
