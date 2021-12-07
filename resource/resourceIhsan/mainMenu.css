@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 .logo{
     padding: 30px 0px 0px 0px;  
     transition: transform 1s;
 }
 
-
-
 * {
+    font-family: 'Nunito', sans-serif;
     text-decoration: none;
     margin: 0px;
     padding: 0px;
@@ -14,7 +15,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Nunito;
     font-weight: bold;
 }
 
@@ -22,9 +22,8 @@ body {
     width: 1400px;
     margin: auto;
     position: relative;
+    z-index: 3;
 }
-
-
 
 .menu {
     float: right;
@@ -40,7 +39,7 @@ nav {
     position: -webkit-sticky; 
     top: 0;
     background: #FFFFFF;
-    z-index: 1;
+    z-index: 2;
 
 }
 
@@ -62,6 +61,7 @@ nav ul li a {
     text-align: center;
     padding: 10px 15px 10px 15px;
     transition: transform 1.0s;
+    cursor: pointer;
 
 }
 
@@ -74,11 +74,12 @@ nav ul li a {
 }
 
 .container-gambar img{
+    margin: auto;
     padding: 0px 0px 0px 0px; 
-    width: 1536px;
+    width: 1526px;
 }
 
-.judul{
+.slogan{
     position: absolute;
 width: 969px;
 height: 46px;
@@ -137,19 +138,20 @@ color: white;
     position: sticky;
     position: -webkit-sticky; 
     top: 0;
-    background: #FFFFFF;
-    z-index: 1;
     
 }
 
 .wrapper-wisata{
     padding: 10px 15px 10px 15px ;
-    width: 1500px;
+    width: 1480px;
     overflow-x: auto;
     white-space: nowrap;
+    position: relative;
 }
 
 .card{
+    transition: 0.5s;
+    transform: scale(1);
     display: inline-block;
     margin-left: 10px;
     width: 300px;
@@ -157,8 +159,14 @@ color: white;
     padding: 10px 10px 10px 10px ;
     border-style: solid;
     border-width: 2px;
-    border-color:#8B7FDF ;
+    border-color:#8B7FD0 ;
     border-radius: 20px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px 0.5px #D6D4FF;
+    cursor: pointer;
+    transform: scale(1.03);
 }
 
 
@@ -172,6 +180,7 @@ color: white;
 }
 
 .body-card{
+    
     padding-left: 3px;
     height: 70px;
     white-space: nowrap;
@@ -179,12 +188,12 @@ color: white;
 
 
 .jarak{
-    white-space: nowrap;
-    margin-left: 250px;
+    margin-left: 125px;
 }
 
 .detail{
-    white-space: nowrap;
+   
+    display: flex;
 }
 
 ::-webkit-scrollbar {
@@ -204,5 +213,85 @@ color: white;
     height: 20px;
 }
 
+.wrapper-artikel{
+    background-color: #8B7FDF;
+    position: relative;
+    margin-top: 200px;
+    width: auto;
+    height: 500px;
+}
 
+.body-artikel{
+    display: flex;
+}
+
+.tulisan{
+    position: absolute;
+    margin-top: 120px;
+    color: white;
+    margin-left: 200px;
+    z-index: 1;
+}
+
+.judul{
+    font-size: 59px;
+    font-weight: 800;
+}
+
+.masjid{
+    position: absolute;
+    width: 1526px; height: 500px; object-fit: cover  ;
+    opacity: 0.25;
+    z-index: -0;
+}
+
+.gambar-artikel{
+    margin-right: 200px;
+    margin-top:50px;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.button {
+    font-weight: 600;
+    margin-top: 50px;
+    border:none;
+    outline: none;
+    width: 246px;
+    height: 43px;
+    background-color: white;
+    border-radius: 6px;
+    color: #8B7FDF;
+    padding: 11px 32px;
+    font-size: 16px;
+    z-index: 1;
+    transition: 0.2s;
+  }
+
+.button:hover{
+    color: white;
+    background-color: #6354C8;
+    cursor: pointer;
+}
+
+.wrapper-kontak{
+    width: auto;
+    height: 356px;
+    position: relative;
+    margin-top: 200px;
+    background-color: #F6F6F6;
+}
+
+.medsos{
+    position: absolute;
+    margin-top: 210px;
+    margin-left:120px ;
+    display: flex;
+}
+
+.medsos img{
+    cursor: pointer;
+    margin-right: 15px;
+}
 
