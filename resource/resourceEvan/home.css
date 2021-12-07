@@ -150,30 +150,17 @@
     position: absolute;
     width: 312.98px;
     height: 52.16px;
-    left: 831px;
     top: 301px;
+    right: 200px;
 
 
 
     /* Rectangle 3 */
-
-    position: absolute;
-    /* left: 0%;
-    right: 10%;
-    top: 0%;
-    bottom: 0%; */
-
     background: #8B7FDF;
     border-radius: 6.9902px;
 
 
     /* Button */
-
-    position: absolute;
-    /* left: 8.49%;
-    right: 8.31%;
-    top: 22.28%;
-    bottom: 23.99%; */
 
     font-family: Nunito;
     font-style: normal;
@@ -190,30 +177,18 @@
     position: absolute;
     width: 312.98px;
     height: 52.16px;
-    left: 831px;
+    right: 200px;
     top: 385.92px;
 
 
 
     /* Rectangle 3 */
 
-    position: absolute;
-    /* left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%; */
-
     background: #8B7FDF;
     border-radius: 6.9902px;
 
 
     /* Button */
-
-    position: absolute;
-    /* left: 8.49%;
-    right: 8.31%;
-    top: 22.28%;
-    bottom: 23.99%; */
 
     font-family: Nunito;
     font-style: normal;
@@ -230,31 +205,18 @@
     position: absolute;
     width: 312.98px;
     height: 52.16px;
-    left: 831px;
+    right: 200px;
     top: 470.84px;
 
 
 
     /* Rectangle 3 */
 
-    position: absolute;
-    /* left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%; */
-
     background: #8B7FDF;
     border-radius: 6.9902px;
 
 
     /* Button */
-
-    position: absolute;
-    /* left: 8.49%;
-    right: 8.31%;
-    top: 22.28%;
-    bottom: 23.99%; */
-
     font-family: Nunito;
     font-style: normal;
     font-weight: 600;
