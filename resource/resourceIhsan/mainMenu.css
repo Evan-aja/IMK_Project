@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
+/*
 .logo{
     padding: 30px 0px 0px 0px;  
     transition: transform 1s;
@@ -64,6 +64,132 @@ nav ul li a {
     cursor: pointer;
 
 }
+*/
+* {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.colorblocked{
+    color: #FFFFFF
+}
+.colorunblocked{
+    color: #7969E8;    
+}
+/* navbar */
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+}
+/* tombol nya navbar */
+.logo{
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 48px;
+    top: 27px;
+
+    background: url("./logo.png");
+}
+.menu:hover,.tentang:hover,.bantuan:hover,.akun:hover{
+    border: none;
+    outline: none;
+}
+.menu{
+    padding-top: 5px;
+    position: absolute;
+    width: 120.7px;
+    height: 26.05px;
+    /* left: 785.26px; */
+    right: 320px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #FFFFFF;    
+}
+.kotaknya{
+    position: absolute;
+    width: 135.12px;
+    height: 35px;
+    /* left: 773.86px; */
+    right: 340px;
+    top: 32px;
+    
+    background: #8B7FDF;
+    border-radius: 6.51161px;
+}
+.bantuan{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 1055.49px; */
+    right: 110px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #7969E8;
+}
+.tentang{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 945.63px; */
+    right: 220px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #7969E8;    
+}
+.akun{
+    position: absolute;
+    width: 80.7px;
+    height: 26.05px;
+    /* left: 1158.98px; */
+    right: 30px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #7969E8;
+}
 
 .menuUtama{
     margin-top: 20;
@@ -74,7 +200,7 @@ nav ul li a {
 }
 
 .container-gambar img{
-    margin: auto;
+    margin-top: 80px;
     padding: 0px 0px 0px 0px; 
     width: 1526px;
 }
@@ -92,14 +218,14 @@ color: white;
 .search{
     position: absolute;
     margin-left: 550px;
-    margin-top: 260px;
+    margin-top: 340px;
     width: 450px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     
-    background-image: url('../resource/resourceIhsan/searchicon.png');
+    background-image: url('../resource/ressourceIhsan/searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -146,8 +272,6 @@ color: white;
     top: 0;
     
 }
-
-
 
 .wrapper-wisata{
     padding: 10px 15px 10px 15px ;
