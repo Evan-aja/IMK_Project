@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 *{
+    font-family: 'Nunito', sans-serif !important;
     padding: 0;
     margin: 0;
+}
+
+.nav-wrapper a:hover{
+    background-color: white;
 }
 .nav-wrapper{
     border-bottom: 0!;
@@ -11,11 +16,10 @@
     font-style: normal;
     font-weight: 800;
     font-size: 18.8372px;
-    color:  #7969E8;    
+    color:  #8B7FDF;    
 }
 .kotak{
-    border:1px 1px #7969E8;
-    background-color: #7969E8;
+    background-color: #8B7FDF;
     color: white;
     padding: 10px 16px 10px 16px;
     border-radius: 6.51161px;
@@ -24,24 +28,23 @@
     padding-top: 11%;
 }
 .lifeisjourney{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito'!important;
     font-style: normal;
-    color: #7969E8;
+    color: #8B7FDF;
     font-size: 91px;
     padding-left: 7%;
     font-weight: bolder;
-    font-weight: 900;
-    text-shadow: 1px 2px 1px #7969E8 !important;
+    font-weight: 1000;
 }
 .fybd{
+    font-family: 'Nunito'!important;
     margin-top: -20px;
     padding-top: -33px;
-    color: #7969E8;
+    color: #8B7FDF;
     font-size: 35px;
     margin-bottom: 64px;
     padding-left: 7%;
     font-weight: 400;
-    text-shadow: .5px .5px .5px #000000 !important;
 }
 .loginpoto{
     position: absolute;
@@ -54,7 +57,7 @@
     width: 390px;
     height: 510px;
     border-radius: 20px;
-    border:1px 1px #7969E8;
+    border:1px 1px #8B7FDF;
     background-color: rgb(255, 255, 255);
     box-shadow: 0.7px .4px 6px 1px #000;
     position: relative;
@@ -74,11 +77,11 @@
 }
 .tombol{
     position: relative;
-    background-color: #7969E8;
+    background-color: #8B7FDF;
     color: white;
     padding: 5px 40px 5px 40px;
     border-radius: 5px;
-    border:1px 1px #7969E8;
+    border:1px 1px #8B7FDF;
     font-size: 20px;
     display: inline-block;
     left: 25%;
@@ -97,6 +100,13 @@
     width: 55px;
 }
 
+/* label underline focus color */
+.input-field input[type=text],
+.input-field input[type=password],
+.input-field input[type=email],:focus {
+border-bottom: 1px solid #8B7FDF !important;
+box-shadow: 0 1px 0 0 #8B7FDF !important;
+}
 /*
     masuk.html
 */
@@ -128,7 +138,7 @@
     width: 390px;
     height: 510px;
     border-radius: 20px;
-    border:1px 1px #7969E8;
+    border:1px 1px #8B7FDF;
     background-color: rgb(255, 255, 255);
     box-shadow: 0.7px .4px 6px 1px #000;
     display: block;
@@ -149,11 +159,11 @@
 }
 .tombol2{
     position: relative;
-    background-color: #7969E8;
+    background-color: #8B7FDF;
     color: white;
     padding: 5px 40px 5px 40px;
     border-radius: 5px;
-    border:1px 1px #7969E8;
+    border:1px 1px #8B7FDF;
     font-size: 20px;
     display: inline-block;
     left: 28%;
