@@ -4,9 +4,9 @@
     font-style: normal;
 }
 .colorblocked{
-    color: #FFFFFF
+    color: #FFFFFF;
 }
-.colorunblocked{    
+.colorunblocked{
     color: #7969E8;    
 }
 /* navbar */
@@ -26,6 +26,10 @@
     top: 27px;
 
     background: url("./logo.png");
+}
+.menu:hover,.tentang:hover,.bantuan:hover,.akun:hover{
+    border: none;
+    outline: none;
 }
 .menu{
     position: absolute;
@@ -70,6 +74,7 @@
     /* left: 1055.49px; */
     right: 100px;
     top: 36.07px;
+    padding-top: 5px;
     
     font-weight: 600;
     font-size: 18.8372px;
