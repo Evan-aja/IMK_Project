@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    font-family: 'Nunito', sans-serif !important;
+    padding: 0;
+    margin: 0;
+    color: #8B7FDF;
+    font-weight: 900;
+    font-size: 20px;    
+}
+/* navbar */
+
+.nav-wrapper ul{
+    margin-right: 7%!important;
+}
+.brand-logo{
+    padding-left: 7% !important;
+    padding-top: .8% !important;
+}
+.kotak{
+    background-color: #8B7FDF;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 6.51161px;
+}
+.nav-wrapper a:hover{
+    background-color: white !important;
+}
