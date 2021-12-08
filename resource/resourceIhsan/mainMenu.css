@@ -217,8 +217,9 @@ color: white;
 
 .search{
     position: absolute;
-    margin-left: 550px;
-    margin-top: 340px;
+    left: 35vw;
+    right: 50vw;
+    top: 340px;
     width: 450px;
     box-sizing: border-box;
     border: 2px solid #ccc;
