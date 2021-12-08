@@ -1,70 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-/*
-.logo{
-    padding: 30px 0px 0px 0px;  
-    transition: transform 1s;
-}
-
-* {
-    font-family: 'Nunito', sans-serif;
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
-    font-weight: bold;
-}
-
-.wrapper {
-    width: 1400px;
-    margin: auto;
-    position: relative;
-    z-index: 3;
-}
-
-.menu {
-    float: right;
-}
-
-
-nav {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    line-height: 50px;
-    position: sticky;
-    position: -webkit-sticky; 
-    top: 0;
-    background: #FFFFFF;
-    z-index: 2;
-
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-    padding-top: 25px;
-}
-
-nav ul li a {
-    color: #8B7FDF;
-    font-weight:bold;
-    text-align: center;
-    padding: 10px 15px 10px 15px;
-    transition: transform 1.0s;
-    cursor: pointer;
-
-}
-*/
 * {
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
@@ -82,7 +15,7 @@ body {
     color: #FFFFFF
 }
 .colorunblocked{
-    color: #7969E8;    
+    color: #8B7FDF;    
 }
 /* navbar */
 .navbar{
@@ -152,7 +85,7 @@ body {
     border: none;
     outline: none;
     
-    color: #7969E8;
+    color: #8B7FDF;
 }
 .tentang{
     position: absolute;
@@ -170,7 +103,7 @@ body {
     border: none;
     outline: none;
     
-    color: #7969E8;    
+    color: #8B7FDF;    
 }
 .akun{
     position: absolute;
@@ -179,7 +112,6 @@ body {
     /* left: 1158.98px; */
     right: 30px;
     top: 36.07px;
-    
     font-weight: 600;
     font-size: 18.8372px;
     line-height: 26px;
@@ -188,49 +120,32 @@ body {
     border: none;
     outline: none;
 
-    color: #7969E8;
-}
-
-.menuUtama{
-    margin-top: 20;
-    border-radius: 5px;
-    background: #8B7FDF;
-    color: white;
-    z-index: -1;
-}
-
-.container-gambar img{
-    margin-top: 80px;
-    padding: 0px 0px 0px 0px; 
-    width: 1526px;
-}
-
-.slogan{
-    position: absolute;
-width: 969px;
-height: 46px;
-left: 320px;
-top: 210px;
-font-size: 40px;
-color: white;
+    color: #8B7FDF;
 }
 
 .search{
     position: absolute;
-    left: 35vw;
+    left: 18.7vw;
     right: 50vw;
-    top: 340px;
-    width: 450px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
+    top: 141px;
+    width: 948px;
+    border: 2px solid gainsboro;
     border-radius: 4px;
     font-size: 16px;
-    
     background-image: url('../resource/ressourceIhsan/searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
     font-family: Nunito;
+}
+
+.search:focus, .search:active{
+    outline: none;
+    border: 2px solid #8B7FDF !important;
+}
+
+.wrapper-filter{
+    padding-left: 18.8vw;
 }
 
 .filter ul li {
@@ -244,6 +159,13 @@ color: white;
     overflow: hidden;
 }
 
+.terdekat{
+    border-style: solid;
+    border-color: #8B7FDF;
+    border-width: 2px;
+    color: white;
+    border-radius: 7px;
+}
 
 .filter ul li a {
     color: #8B7FDF;
@@ -257,21 +179,21 @@ color: white;
 }
 
 .filter{
+    
     width: 100%;
     margin: auto;
-    display: flex;
     line-height: 50px;
     position: sticky;
     position: -webkit-sticky; 
-    top: 0;
+    margin-top: 220px;
     
 }
 
 .wrapper-wisata{
-    padding: 10px 15px 10px 15px ;
-    width: 1480px;
-    overflow-x: auto;
-    white-space: nowrap;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 18vw;
+    width: 1200px;
     position: relative;
 }
 
@@ -280,6 +202,7 @@ color: white;
     transform: scale(1);
     display: inline-block;
     margin-left: 10px;
+    margin-bottom: 15px;
     width: 300px;
     height: 200px;
     padding: 10px 10px 10px 10px ;
@@ -321,104 +244,3 @@ color: white;
     display: flex ;
     right: 0;
 }
-
-::-webkit-scrollbar {
-    width:10px;
-    height: 8px;
-    color: white;
-}
- 
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 100px white;   
-    background: #666;    
-}
- 
-::-webkit-scrollbar-thumb {
-    background: silver;
-    border-radius: 50px;
-    height: 20px;
-}
-
-.wrapper-artikel{
-    background-color: #8B7FDF;
-    position: relative;
-    margin-top: 200px;
-    width: auto;
-    height: 500px;
-}
-
-.body-artikel{
-    display: flex;
-}
-
-.tulisan{
-    position: absolute;
-    margin-top: 120px;
-    color: white;
-    margin-left: 200px;
-    z-index: 1;
-}
-
-.judul{
-    font-size: 59px;
-    font-weight: 800;
-}
-
-.masjid{
-    position: absolute;
-    width: 1526px; height: 500px; object-fit: cover  ;
-    opacity: 0.25;
-    z-index: -0;
-}
-
-.gambar-artikel{
-    position: relative;
-    margin-right: 200px;
-    margin-top:50px;
-    right: 0;
-    margin-left: 900px;
-    z-index: 1;
-}
-
-.button {
-    font-weight: 600;
-    margin-top: 50px;
-    border:none;
-    outline: none;
-    width: 246px;
-    height: 43px;
-    background-color: white;
-    border-radius: 6px;
-    color: #8B7FDF;
-    padding: 11px 32px;
-    font-size: 16px;
-    z-index: 1;
-    transition: 0.2s;
-  }
-
-.button:hover{
-    color: white;
-    background-color: #6354C8;
-    cursor: pointer;
-}
-
-.wrapper-kontak{
-    width: auto;
-    height: 356px;
-    position: relative;
-    margin-top: 200px;
-    background-color: #F6F6F6;
-}
-
-.medsos{
-    position: absolute;
-    margin-top: 210px;
-    margin-left:120px ;
-    display: flex;
-}
-
-.medsos img{
-    cursor: pointer;
-    margin-right: 15px;
-}
-
