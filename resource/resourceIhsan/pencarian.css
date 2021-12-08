@@ -131,7 +131,8 @@ body {
     position: fixed;
     border-radius: 35px;
     right: 10vw;
-    top: 600px;
+    bottom: 0;
+    margin-bottom: 60px;
     box-shadow: 0px 0px 10px 0.5px #D6D4FF;
     z-index: 4;
     background-color: white;
