@@ -36,7 +36,7 @@
     width: 120.7px;
     height: 26.05px;
     /* left: 785.26px; */
-    right: 340px;
+    right: 355px;
     top: 36.07px;
     
     font-weight: 600;
@@ -416,21 +416,21 @@ color: #4F4F4F;
 
     color: #4F4F4F;
 }
-.desc{
+.title{
+    /* Bugs & Report */
     position: absolute;
-    width: 95%;
-    height: 485px;
-    right:33px;
+    width: 350px;
+    height: 43px;
     left: 33px;
-    top: 77px;
+    top: 31px;
 
     font-family: Nunito;
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 60px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
 
-    color: #4f4f4f;
+    color: #4F4F4F;
 }
 .subtitle{
     /* Subjudul Artikel */
