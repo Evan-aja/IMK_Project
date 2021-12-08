@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 *{
-    font-family: 'Nunito', sans-serif !important;
+    font-family: 'Nunito' !important;
     padding: 0;
     margin: 0;
     color: #8B7FDF;
@@ -10,7 +10,7 @@
 /* navbar */
 
 .nav-wrapper ul{
-    margin-right: 7%!important;
+    margin-right: 6%!important;
 }
 .brand-logo{
     padding-left: 7% !important;
@@ -24,4 +24,103 @@
 }
 .nav-wrapper a:hover{
     background-color: white !important;
+}
+
+.kontenKiri{
+    position: relative;
+    padding-top: 10%;
+    padding-left: 20%;
+} 
+.kontenKiri img{
+    position: relative;
+    width: 411px !important;
+    height: 378px !important;
+}
+.content{
+    position: relative;
+    padding-top: 9%;
+    padding-left: 9%;
+}
+h3{
+    color: rgb(73, 72, 72);
+    font-weight: 900 !important;
+}
+h5{
+    color: rgb(73, 72, 72);
+    margin-top: -10px !important;
+    font-weight: lighter !important;
+    opacity: .7;
+}
+.tombol{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.kotakContent{
+    color: #8B7FDF;
+    padding: 5px 16px 5px 16px;
+    border-radius: 6.51161px;
+    border: 1.2px solid #8B7FDF !important;
+    display: inline-block !important;
+    margin-right: 2%;
+    font-weight: lighter !important;
+}
+.kotakContent:hover{
+    background-color: rgb(216, 216, 216);
+}
+.underbutton{
+    font-size: 16px;
+    color: black;
+}
+.underButtonText{
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+}
+.textWisata{
+    margin-top: 4%;
+}
+.textWisata p{
+    text-indent: 40px;
+    text-align:justify;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+.kotaaak{
+    margin-top: 6%;
+    text-align: center;
+}
+.kotakKiri1{
+    width: 300px;
+    background-color: #8B7FDF;
+    color: #fff;
+    padding: 5px 16px 5px 16px;
+    border-radius: 6.51161px;
+    border: 1.2px solid #8B7FDF !important;
+    display: inline-block!important;
+    font-weight: lighter !important;
+    margin-bottom: 3%;
+}
+.kotakKiri1:hover{
+    background-color: #978ece !important;
+}
+.kotakKiri2{
+    width: 300px;
+    color: #8B7FDF;
+    padding: 5px 16px 5px 16px;
+    border-radius: 6.51161px;
+    border: 1.2px solid #8B7FDF !important;
+    display: inline-block !important;
+    font-weight: lighter !important;
+}
+.kotakKiri2:hover{
+    background-color: rgb(216, 216, 216);
+}
+#helper{
+    position: fixed;
+    bottom: 4%;
+    right: 2%; 
+    width: 55px;
+    border-radius: 20%;
 }
