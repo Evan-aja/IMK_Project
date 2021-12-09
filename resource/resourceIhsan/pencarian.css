@@ -149,23 +149,18 @@ body {
 
 .search{
     position: absolute;
-    left: 18.7vw;
-    right: 50vw;
-    top: 141px;
-    width: 948px;
-    border: 2px solid gainsboro;
-    border-radius: 4px;
-    font-size: 16px;
-    background-image: url('../resource/ressourceIhsan/searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    font-family: Nunito;
+    width: 63.5%;
+    height: 54px;
+    left: 19%;
+    top: 20vh;
+    border-radius: 7px;
+    padding-left: 30px;
+    font-size: 15px;
 }
 
-.search:focus, .search:active{
+.search:focus{
+    border-color: #8B7FDF;
     outline: none;
-    border: 2px solid #8B7FDF !important;
 }
 
 .wrapper-filter{
@@ -217,7 +212,7 @@ body {
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 18vw;
-    width: 1200px;
+    width: 80.5vw;
     position: relative;
 }
 
@@ -267,4 +262,18 @@ body {
 .detail{
     display: flex ;
     right: 0;
+}
+
+footer{
+    /* border-style: solid; */
+    margin-bottom: 3vh;
+}
+
+footer p{
+    font-weight: 300;
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+    text-align: center;
+    object-position: center;
+   
 }
