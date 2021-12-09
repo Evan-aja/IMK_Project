@@ -36,7 +36,7 @@
     width: 120.7px;
     height: 26.05px;
     /* left: 785.26px; */
-    right: 340px;
+    right: 355px;
     top: 36.07px;
     
     font-weight: 600;
@@ -116,9 +116,11 @@
 }
 .judul{
     position: absolute;
-    width: 525px;
+    /* width: 525px; */
+    width: 100%;
+    text-align: center;
     height: 82.03px;
-    left: 135px;
+    /* left: 135px; */
     top: 140px;
 
     font-family: Nunito;
@@ -131,9 +133,11 @@
 }
 .subjudul{
     position: absolute;
-    width: 295px;
+    /* width: 295px; */
+    width: 100%;
+    text-align: center;
     height: 28.8px;
-    left: 139px;
+    /* left: 139px; */
     top: 225px;
 
     font-family: Nunito;
@@ -147,12 +151,11 @@
 .b1{
     /* primary1 */
 
-    position: absolute;
     width: 312.98px;
     height: 52.16px;
-    top: 301px;
-    right: 200px;
-
+    display: block;
+    margin: auto;
+    margin-top: 301px;
 
 
     /* Rectangle 3 */
@@ -174,14 +177,14 @@
 .b2{
     /* primary1 */
 
-    position: absolute;
     width: 312.98px;
     height: 52.16px;
-    right: 200px;
-    top: 385.92px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
 
 
-
+    
     /* Rectangle 3 */
 
     background: #8B7FDF;
@@ -202,13 +205,11 @@
 .b3{
     /* primary1 */
 
-    position: absolute;
     width: 312.98px;
     height: 52.16px;
-    right: 200px;
-    top: 470.84px;
-
-
+    display: block;
+    margin: auto;
+    margin-top: 30px;
 
     /* Rectangle 3 */
 
@@ -225,4 +226,7 @@
     text-align: center;
 
     color: #FFFFFF;
+}
+.b1:hover,.b2:hover,.b3:hover{
+    text-decoration: dashed;
 }
