@@ -66,6 +66,7 @@ h5{
 }
 .kotakContent:hover{
     background-color: rgb(216, 216, 216);
+    cursor: pointer;
 }
 .underbutton{
     font-size: 16px;
@@ -78,14 +79,17 @@ h5{
 }
 .textWisata{
     margin-top: 4%;
+    display: block;
 }
 .textWisata p{
-    text-indent: 40px;
     text-align:justify;
     font-style: normal;
     font-size: 16px;
     color: black;
     font-weight: 400;
+}
+.deskripsi{
+    text-indent: 40px;
 }
 .kotaaak{
     margin-top: 6%;
@@ -123,4 +127,56 @@ h5{
     right: 2%; 
     width: 55px;
     border-radius: 20%;
+}
+
+/*
+Bagian Button Click
+*/
+.peraturan{
+    padding-bottom: 26%;
+}
+
+.displaynone{
+    display: none !important;
+}
+
+.komentar{
+    position: relative;
+    max-height: 330px;
+    display: flex;
+    overflow-x: scroll;
+    max-width: 550px;
+}
+
+.kotakKomentar{
+    position: relative;
+    padding: 0%;
+    min-width: 410px;
+    height: 310px;
+    background-color: white;
+    margin-left: 5%;
+    border: 1px solid #8B7FDF;
+    border-radius: 5%;
+    padding: 0% 5% 0% 5%;
+}
+.namaKomentar{
+    position: relative;
+    top: -8%;
+}
+.namaKomentar p {
+    position: relative;
+    margin-left: 20%;
+    padding-top: 14%; 
+    font-weight: 900 !important;
+}
+.photoKomentar{
+    display: inline-block;
+    position: absolute;
+    padding-top: 10%;
+    height: 85px;
+    width: 50px;
+}
+
+.isiKomentar{
+    padding-top: 3%;
 }
