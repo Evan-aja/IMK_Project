@@ -147,8 +147,9 @@
     /* Frame 5 */
 
     position: absolute;
-    width: 80%;
+    /* width: 80%; */
     height: 80vh;
+    left: 210px;
     right: 30px;
     top: 100px;
     overflow: hidden;
