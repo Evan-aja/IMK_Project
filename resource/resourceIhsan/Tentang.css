@@ -10,7 +10,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .colorblocked{
@@ -123,7 +123,7 @@ body {
     border: none;
     outline: none;
 
-    color: #7969E8;
+    color: #8B7FDF;
 }
 
 .tbl-cs, .path-cs{
@@ -147,3 +147,102 @@ body {
     cursor: pointer;
     background-color:#8B7FDF ;
 }
+
+.wrapper-latar{
+    margin-top: 14.5vh;
+    display: flex;
+    background-color: #F6F6F6;
+}
+
+.wrapper-latar img{
+    width: 25vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 19.5vw;
+}
+
+.tulisan-latar{
+    width: 25vw;
+    height: 25vh;
+    text-align: justify;
+    margin-top: 19vh;
+    margin-left: 9vw;
+    color: #2b2b2b;
+}
+
+.tulisan-latar p:first-child{
+    font-size: 2.5vw;
+    font-weight: 800;
+}
+
+.tulisan-latar p:nth-child(2){
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.wrapper-tujuan{
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    background-color: #8B7FDF ;
+}
+
+.wrapper-tujuan img{
+    width: 25vw;
+    background-color: white;
+    border-radius: 1vw;
+    padding: 2vw 3vw 2vw 3vw;
+    margin-left: 2vw;
+    object-fit:contain;
+}
+
+.tulisan-tujuan{
+    color: white;
+    text-align: right;
+    width: 30vw;
+    margin-left: 20vw;
+
+}
+
+.tulisan-tujuan p:first-child{
+    font-size: 4vw;
+    font-weight: 800;
+}
+
+.tulisan-tujuan p:nth-child(2){
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.wrapper-kontak{
+    width: auto;
+    height: 356px;
+    position: relative;
+    margin-top: 200px;
+    background-color: #F6F6F6;
+}
+
+.medsos{
+    position: absolute;
+    margin-top: 210px;
+    margin-left:120px ;
+    display: flex;
+}
+
+.medsos img{
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.trademark{
+    position: absolute;
+    font-weight: 300;
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+    text-align: center;
+    object-position: center;
+    bottom: 0;
+    margin-bottom: 2vh;
+    margin-left: 47vw;
+}
+
