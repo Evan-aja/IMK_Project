@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.colorblocked{
+    color: #FFFFFF;
+}
+.colorunblocked{
+    color: #7969E8;    
+}
+/* navbar */
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+}
+/* tombol nya navbar */
+.logo{
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 48px;
+    top: 27px;
+
+    background: url("./logo.png");
+}
+.menu:hover,.tentang:hover,.bantuan:hover,.akun:hover{
+    border: none;
+    outline: none;
+}
+.menu{
+    position: absolute;
+    width: 120.7px;
+    height: 26.05px;
+    /* left: 785.26px; */
+    right: 355px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #8B7FDF;    
+}
+.tentang{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 945.63px; */
+    right: 230px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: white;    
+}
+.bantuan{
+    position: absolute;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 1055.49px; */
+    right: 100px;
+    top: 36.07px;
+    padding-top: 0px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #8B7FDF;
+}
+.kotaknya{
+    position: absolute;
+    width: 103px;
+    height: 35px;
+    right: 224px;
+    top: 32px;
+    padding-top: 5px;
+
+    background: #8B7FDF;
+    border-radius: 6.51161px;
+}
+.akun{
+    position: absolute;
+    width: 80.7px;
+    height: 26.05px;
+    /* left: 1158.98px; */
+    right: 30px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    color: #7969E8;
+}
+
+.tbl-cs, .path-cs{
+    transition: 0.1s;
+    padding: 10px 15px 10px 15px;
+    position: fixed;
+    border-radius: 35px;
+    right: 10vw;
+    bottom: 0;
+    margin-bottom: 60px;
+    box-shadow: 0px 0px 10px 0.5px #D6D4FF;
+    z-index: 4;
+    background-color: white;
+}
+
+.tbl-cs:hover .path-cs{
+    fill: white;
+}
+
+.tbl-cs:hover, .path-cs{
+    cursor: pointer;
+    background-color:#8B7FDF ;
+}
