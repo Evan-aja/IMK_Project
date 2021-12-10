@@ -131,6 +131,7 @@
     border: 1px solid #7B61FF;
     box-sizing: border-box;
     border-radius: 5px;
+    outline: none;
 
 
     /* Cari permasalahanmu */
@@ -147,8 +148,9 @@
     /* Frame 5 */
 
     position: absolute;
-    width: 80%;
+    /* width: 80%; */
     height: 80vh;
+    left: 210px;
     right: 30px;
     top: 100px;
     overflow: hidden;
