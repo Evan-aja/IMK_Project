@@ -82,7 +82,7 @@ body {
     color: #FFFFFF
 }
 .colorunblocked{
-    color: #7969E8;    
+    color: #8B7FDF;    
 }
 /* navbar */
 .navbar{
@@ -131,7 +131,8 @@ body {
     height: 35px;
     /* left: 773.86px; */
     right: 340px;
-    top: 32px;
+    top: 29px;
+    padding-top: 7px;
     
     background: #8B7FDF;
     border-radius: 6.51161px;
@@ -152,7 +153,7 @@ body {
     border: none;
     outline: none;
     
-    color: #7969E8;
+    color: #8B7FDF;
 }
 .tentang{
     position: absolute;
@@ -170,7 +171,7 @@ body {
     border: none;
     outline: none;
     
-    color: #7969E8;    
+    color: #8B7FDF;    
 }
 .akun{
     position: absolute;
@@ -188,7 +189,7 @@ body {
     border: none;
     outline: none;
 
-    color: #7969E8;
+    color: #8B7FDF;
 }
 
 .tbl-cs, .path-cs{
