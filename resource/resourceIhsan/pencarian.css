@@ -66,7 +66,8 @@ body {
     height: 35px;
     /* left: 773.86px; */
     right: 340px;
-    top: 32px;
+    top: 29px;
+    padding-top: 7px;
     
     background: #8B7FDF;
     border-radius: 6.51161px;
@@ -184,6 +185,7 @@ body {
     border-width: 2px;
     color: white;
     border-radius: 7px;
+    
 }
 
 .filter ul li a {
@@ -191,14 +193,14 @@ body {
     font-weight:bold;
     text-align: center;
     padding: 10px 20px 10px 20px;
+    
 }
 
-.filter ul li a:hover {
+.filter ul li a:hover:not(.terdekat){
     text-decoration:underline;
 }
 
 .filter{
-    
     width: 100%;
     margin: auto;
     line-height: 50px;

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 * {
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
@@ -10,14 +9,13 @@
 body {
     margin: 0px;
     padding: 0px;
-    /* font-weight: bold; */
 }
 
 .colorblocked{
-    color: #FFFFFF;
+    color: #FFFFFF
 }
 .colorunblocked{
-    color: #7969E8;    
+    color: #8B7FDF;    
 }
 /* navbar */
 .navbar{
@@ -42,12 +40,13 @@ body {
     outline: none;
 }
 .menu{
+    padding-top: 5px;
     position: absolute;
     width: 120.7px;
     height: 26.05px;
     /* left: 785.26px; */
-    right: 355px;
-    top: 36.07px;
+    right: 345px;
+    top: 31px;
     
     font-weight: 600;
     font-size: 18.8372px;
@@ -59,31 +58,25 @@ body {
     
     color: #8B7FDF;    
 }
-.tentang{
+.kotaknya{
     position: absolute;
-    width: 110.7px;
-    height: 26.05px;
-    /* left: 945.63px; */
-    right: 230px;
-    top: 36.07px;
-    font-weight: 600;
-    font-size: 18.8372px;
-    line-height: 26px;
-    text-align: center;
-    background-color: transparent;
-    border: none;
-    outline: none;
+    width: 135.12px;
+    height: 35px;
+    /* left: 773.86px; */
+    right: 340px;
+    top: 29px;
+    padding-top: 7px;
     
-    color: white;    
+    background: #8B7FDF;
+    border-radius: 6.51161px;
 }
 .bantuan{
     position: absolute;
     width: 110.7px;
     height: 26.05px;
     /* left: 1055.49px; */
-    right: 100px;
+    right: 110px;
     top: 36.07px;
-    padding-top: 0px;
     
     font-weight: 600;
     font-size: 18.8372px;
@@ -95,16 +88,23 @@ body {
     
     color: #8B7FDF;
 }
-.kotaknya{
+.tentang{
     position: absolute;
-    width: 103px;
-    height: 35px;
-    right: 224px;
-    top: 29px;
-    padding-top: 8px;
-
-    background: #8B7FDF;
-    border-radius: 6.51161px;
+    width: 110.7px;
+    height: 26.05px;
+    /* left: 945.63px; */
+    right: 220px;
+    top: 36.07px;
+    
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+    color: #8B7FDF;    
 }
 .akun{
     position: absolute;
@@ -147,77 +147,109 @@ body {
     background-color:#8B7FDF ;
 }
 
-.wrapper-latar{
-    margin-top: 14.5vh;
-    display: flex;
-    background-color: #F6F6F6;
+.wrapper-isi{
+    margin-top: 15vh;
+    margin-left: 12vw;
+    margin-right: 13vw;
+    /* border-style: solid; */
 }
 
-.wrapper-latar img{
-    width: 25vw;
+.wrapper-isi .judul-page{
+    font-size: 4vw;
+    font-weight: bold;
+    color: #8B7FDF ;
+}
+
+.wrapper-card1{
+    gap: 3vw;
+    display: flex;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    margin-left: 19.5vw;
 }
 
-.tulisan-latar{
-    width: 25vw;
-    height: 25vh;
-    text-align: justify;
-    margin-top: 18vh;
-    margin-left: 9vw;
-    color: #2b2b2b;
-}
-
-.tulisan-latar p:first-child{
-    font-size: 2.5vw;
-    font-weight: 800;
-}
-
-.tulisan-latar p:nth-child(2){
-    font-weight: 500;
-    font-size: 1vw;
-}
-
-.wrapper-tujuan{
-    margin-top: 150px;
-    display: flex;
-    padding: 50px 50px 50px 50px;
-    background-color: #8B7FDF ;
-}
-
-.wrapper-tujuan img{
-    width: 25vw;
-    background-color: white;
-    border-radius: 1vw;
-    padding: 2vw 3vw 2vw 3vw;
-    margin-left: 2vw;
-    object-fit:contain;
-}
-
-.tulisan-tujuan{
-    color: white;
-    text-align: right;
+.top3{
+    /* border-style: solid; */
     width: 30vw;
-    margin-left: 20vw;
-
+    padding: 1vw 0vw 1vw 0vw;
+    font-weight: 600;
+    font-size: 20px;
 }
 
-.tulisan-tujuan p:first-child{
-    font-size: 4vw;
-    font-weight: 800;
+.top3 p{
+    margin-top: 1vh;
 }
 
-.tulisan-tujuan p:nth-child(2){
-    font-weight: 500;
-    font-size: 1vw;
+.top3:hover{
+    cursor: pointer;
 }
+
+
+.top3 img{
+    width: 22vw;
+    height: 23vh;
+    border-radius: 1vw;
+    object-fit: cover;
+}
+
+.wrapper-card2{
+    margin-top: 8vh;
+}
+
+.card-artikel{
+
+    display:flex ;
+    font-weight: 600;
+    margin-bottom: 5.5vh;
+}
+
+
+.card-artikel img{
+    width: 150px;
+    height: 150px;
+    border-radius: 1vw;
+    object-fit: cover ;
+}
+
+.card-body{
+    margin-left: 20px;
+}
+
+.card-body p:first-child{
+    font-size: 20px;
+    width: 23vw;
+    margin-bottom: 1vh;
+}
+
+.button-artikel {
+    margin-top: 26px;
+    border:none;
+    outline: none;
+    width: 120px;
+    background-color: #8B7FDF;
+    border-radius: 6px;
+    color:white ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    z-index: 1;
+    transition: 0.2s;
+  }
+
+.button-artikel:hover{
+    color: white;
+    background-color: #6354C8;
+    cursor: pointer;
+}
+
+/* .menuju-isi:visited{
+    color:black;
+} */
 
 .wrapper-kontak{
     width: auto;
     height: 356px;
     position: relative;
-    margin-top: 200px;
+    margin-top: 100px;
     background-color: #F6F6F6;
 }
 
@@ -244,4 +276,5 @@ body {
     margin-bottom: 2vh;
     margin-left: 47vw;
 }
+
 
