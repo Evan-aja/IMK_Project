@@ -64,7 +64,7 @@ a.unblock{
     color: #8B7FDF;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .logo{
         margin-left: 170px;
     }
