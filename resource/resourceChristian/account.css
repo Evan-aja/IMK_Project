@@ -148,6 +148,23 @@
     border-radius: 7px;
 }
 
+.kotak2{
+    background-color: white;
+    color: #8B7FDF;
+    padding: 10px 16px 10px 16px;
+    border-radius: 6.51161px;
+}
+
+.atursaldo{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18.8372px;
+    color:  #8B7FDF;    
+}
 img{
     border-radius: 10%;
 }
