@@ -13,117 +13,68 @@ body {
     /* font-weight: bold; */
 }
 
-.colorblocked{
-    color: #FFFFFF;
+/* ------Navbar baru mulai dari sini------- */
+.wrapper {
+    width: 1400px;
+    margin: auto;
+    position: relative;
 }
-.colorunblocked{
-    color: #7969E8;    
+
+.logo{
+    /* transform: scale(1)rotate(90deg); */
+    margin-left: 40px;
+    margin-top: 35px;
+    /* transition: transform 1s; */
+    width: 160px;
 }
-/* navbar */
-.navbar{
+
+.menu {
+    float: right;
+}
+
+nav {
     position: absolute;
     width: 100%;
-    height: 94px;
-    left: 0px;
-    top: 0px;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    /* position: sticky;
+    position: -webkit-sticky;  */
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    /* border-style: solid; */
 }
-/* tombol nya navbar */
-.logo{
-    position: absolute;
-    width: 197px;
-    height: 40px;
-    left: 48px;
-    top: 27px;
 
-    background: url("./logo.png");
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
 }
-.menu:hover,.tentang:hover,.bantuan:hover,.akun:hover{
-    border: none;
-    outline: none;
+
+nav ul li {
+    float: left;
+    margin-top: 30px;;
+    /* border-style: solid; */
 }
-.menu{
-    position: absolute;
-    width: 120.7px;
-    height: 26.05px;
-    /* left: 785.26px; */
-    right: 355px;
-    top: 36.07px;
-    
-    font-weight: 600;
-    font-size: 18.8372px;
-    line-height: 26px;
-    text-align: center;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    
-    color: #8B7FDF;    
-}
-.tentang{
-    position: absolute;
-    width: 110.7px;
-    height: 26.05px;
-    /* left: 945.63px; */
-    right: 230px;
-    top: 36.07px;
-    font-weight: 600;
-    font-size: 18.8372px;
-    line-height: 26px;
-    text-align: center;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    
-    color: white;    
-}
-.bantuan{
-    position: absolute;
-    width: 110.7px;
-    height: 26.05px;
-    /* left: 1055.49px; */
-    right: 100px;
-    top: 36.07px;
-    padding-top: 0px;
-    
-    font-weight: 600;
-    font-size: 18.8372px;
-    line-height: 26px;
-    text-align: center;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    
+
+nav ul li a {
     color: #8B7FDF;
+    font-weight:bold;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    font-size: 19px;
 }
-.kotaknya{
-    position: absolute;
-    width: 103px;
-    height: 35px;
-    right: 224px;
-    top: 29px;
-    padding-top: 8px;
 
+a.block{
     background: #8B7FDF;
-    border-radius: 6.51161px;
+    color: white;
+    border-radius: 7px;
 }
-.akun{
-    position: absolute;
-    width: 80.7px;
-    height: 26.05px;
-    /* left: 1158.98px; */
-    right: 30px;
-    top: 36.07px;
-    
-    font-weight: 600;
-    font-size: 18.8372px;
-    line-height: 26px;
-    text-align: center;
-    background-color: transparent;
-    border: none;
-    outline: none;
 
-    color: #8B7FDF;
-}
+/* ------Navbar baru sampai sini sini------- */
 
 .tbl-cs, .path-cs{
     transition: 0.1s;
@@ -164,7 +115,7 @@ body {
     width: 25vw;
     height: 25vh;
     text-align: justify;
-    margin-top: 18vh;
+    margin-top: 80px;
     margin-left: 9vw;
     color: #2b2b2b;
 }
@@ -200,7 +151,6 @@ body {
     text-align: right;
     width: 30vw;
     margin-left: 20vw;
-
 }
 
 .tulisan-tujuan p:first-child{
@@ -217,31 +167,140 @@ body {
     width: auto;
     height: 356px;
     position: relative;
-    margin-top: 200px;
+    margin-top: 100px;
     background-color: #F6F6F6;
+}
+
+.kiri{
+    position: absolute; margin-left: 10vw; margin-top: 60px; color: #8B7FDF;
 }
 
 .medsos{
     position: absolute;
-    margin-top: 210px;
-    margin-left:120px ;
+    margin-top: 8vh;
     display: flex;
+    gap: 1.5vw;
+}
+
+.peta{
+    position: absolute; right: 0; margin-top: 65px; margin-right: 130px; cursor: pointer;
 }
 
 .medsos img{
     cursor: pointer;
-    margin-right: 15px;
 }
 
 .trademark{
-    position: absolute;
+    /* position: absolute; */
+    background-color:#F6F6F6 ;
     font-weight: 300;
     color: rgb(189, 189, 189);
     font-size: 14px;
     text-align: center;
-    object-position: center;
     bottom: 0;
-    margin-bottom: 2vh;
-    margin-left: 47vw;
+    padding-bottom: 3vh;
+}
+
+/* Ini responsif navbar */
+
+@media screen and (max-width: 800px) {
+    .logo{
+        margin-left: 170px;
+    }
+ 
+    .menu{
+        margin-right: 25px;
+    }
+ 
+    nav ul li{
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .wrapper{
+        width: 500px;
+    }
+}
+/* Ini responsif navbar */
+
+@media screen and (max-width: 800px) {
+    .wrapper-latar{
+        margin-top: 30.5vh;
+        display: flex;
+        background-color: #F6F6F6;
+    }
+
+    .wrapper-latar img{
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    .tulisan-latar{
+        margin-top: 9.5vh;
+        /* border-style: solid; */
+        width: 40vw;
+    }
+
+    .tulisan-latar p:first-child{
+        font-size: 5vw;
+        font-weight: 800;
+    }
+    
+    .tulisan-latar p:nth-child(2){
+        font-weight: 500;
+        font-size: 2vw;
+    }
+
+    .wrapper-tujuan{
+        padding: 50px 10px 50px 10px;
+        margin-top: 100px;
+    }
+
+    .wrapper-tujuan img{
+        width: 35vw;
+        background-color: white;
+        border-radius: 1vw;
+        padding: 2vw 3vw 2vw 3vw;
+        margin-left: 0.3vw;
+        object-fit:contain;
+    }
+
+    .tulisan-tujuan{
+        color: white;
+        text-align: right;
+        width: 50vw;
+        margin-left: 5vw;
+        /* border-style: solid; */
+    }
+    
+    .tulisan-tujuan p:first-child{
+        font-size: 6vw;
+        font-weight: 800;
+    }
+    
+    .tulisan-tujuan p:nth-child(2){
+        font-weight: 500;
+        font-size: 1.7vw;
+    }
+
+    .peta{
+        width: 50vw;
+        margin-right: 20px;
+    }
+
+    .kiri{
+        margin-left: 20px;
+    }
+
+    .medsos img{
+        cursor: pointer;
+        width: 45px;
+    }
+
+    .medsos{
+        margin-top: 30px;
+    }
+
+
 }
 
