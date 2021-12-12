@@ -114,25 +114,38 @@
 
 .gopay{
     position: absolute;
-    width: 400px;
-    height: 100px;
+    width: 300px;
+    height: 75px;
     left: 600px;
     border-radius: 10px;
-    top: 137.5px;
+    top: 150px;
     background-color: #8B7FDF;
 }
 
 .saldo{
     position: absolute;
-    left: 20px;
-    bottom: 20px;
+    left: 15px;
+    bottom: 15px;
     
     font-weight: 600;
-    font-size: 18.8372px;
+    font-size: 22px;
     line-height: 26px;
     text-align: left;
     vertical-align: bottom;
     color: #FFFFFF;    
+}
+
+.gopaylogo{
+    position: absolute;
+    left: 15px;
+    top: 7px;
+}
+
+.gopaybox{
+    width: 56px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
 }
 
 img{
