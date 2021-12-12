@@ -7,8 +7,10 @@
 
 /* navbar */
 .brand-logo{
-    padding-left: 3% !important;
-    padding-top: .7% !important;
+    padding-left: 3% !important
+}
+.nav-wrapper{
+    padding-top: 1.7% !important;
 }
 .nav-wrapper a:hover{
     background-color: white !important;
