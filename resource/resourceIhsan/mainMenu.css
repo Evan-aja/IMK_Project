@@ -494,7 +494,6 @@ a.block{
 }
 
 .trademark{
-    /* position: absolute; */
     background-color:#F6F6F6 ;
     font-weight: 300;
     color: rgb(189, 189, 189);
@@ -551,11 +550,6 @@ a.block{
         margin-right: 25%;
         margin-top: 70px;
         /* width: 350px */
-    }
-
-    .judul{
-        /* border-style: solid; */
-        
     }
 
     .peta{

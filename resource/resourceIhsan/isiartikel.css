@@ -104,14 +104,14 @@ a.block{
 }
 
 .wrapper-isi .judul-page{
-    font-size: 4vw;
+    font-size: 60px;
     font-weight: bold;
     color: #8B7FDF ;
 }
 
 .header img{
     margin-top: 3vh;
-    width: 40vw;
+    width: 600px;
     height: 45vh;
     object-fit: cover;
     border-radius: 1vw;
@@ -133,30 +133,113 @@ a.block{
     width: auto;
     height: 356px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: #F6F6F6;
+}
+
+.isi{
+    text-align: justify;
+}
+
+.kiri{
+    position: absolute; margin-left: 10vw; margin-top: 60px; color: #8B7FDF;
 }
 
 .medsos{
     position: absolute;
-    margin-top: 210px;
-    margin-left:120px ;
+    margin-top: 8vh;
     display: flex;
+    gap: 1.5vw;
+}
+
+.peta{
+    position: absolute; right: 0; margin-top: 65px; margin-right: 130px; cursor: pointer;
 }
 
 .medsos img{
     cursor: pointer;
-    margin-right: 15px;
 }
 
 .trademark{
-    position: absolute;
+    background-color:#F6F6F6 ;
     font-weight: 300;
     color: rgb(189, 189, 189);
     font-size: 14px;
     text-align: center;
-    object-position: center;
     bottom: 0;
-    margin-bottom: 2vh;
-    margin-left: 47vw;
+    padding-bottom: 3vh;
+}
+
+/* Ini responsif navbar */
+
+@media screen and (max-width: 800px) {
+    .logo{
+        margin-left: 170px;
+    }
+ 
+    .menu{
+        margin-right: 25px;
+    }
+ 
+    nav ul li{
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .wrapper{
+        width: 500px;
+    }
+}
+/* Ini responsif navbar */
+
+@media screen and (max-width: 800px) {
+    .wrapper-isi{
+        margin-top: 26vh;
+        /* border-style: solid; */
+    }
+
+    .header img{
+        margin-top: 8vh;
+        width: 72.5vw;
+        height: 45vh;
+        object-fit: cover;
+        border-radius: 2vw;
+    }
+
+    .wrapper-isi .judul-page{
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        color: #8B7FDF ;
+    }
+
+    .header img{
+        margin-top: 2.9vh;
+    }
+
+    .header .judul-artikel{
+        margin-top: 2vh;
+        font-size: 28px;
+        font-weight: bold;
+        width: 67vw;
+        /* border-style: solid; */
+    }
+
+    .peta{
+        width: 50vw;
+        margin-right: 20px;
+    }
+
+    .kiri{
+        margin-left: 20px;
+    }
+
+    .medsos img{
+        cursor: pointer;
+        width: 45px;
+    }
+
+    .medsos{
+        margin-top: 30px;
+    }
 }
