@@ -24,7 +24,9 @@ button::after{
 .nav-wrapper a:hover{
     background-color: white !important;
 }
-
+.side-nav{
+   background-color:whitesmoke !important;
+}
 .textset{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
