@@ -104,7 +104,7 @@ a.block{
 }
 
 .wrapper-isi .judul-page{
-    font-size: 4vw;
+    font-size: 60px;
     font-weight: bold;
     color: #8B7FDF ;
 }
@@ -169,6 +169,10 @@ a.block{
     margin-bottom: 1vh;
 }
 
+.card-artikel p:nth-child(2) {
+    font-size: 15px;
+}
+
 .button-artikel {
     margin-top: 26px;
     border:none;
@@ -202,28 +206,116 @@ a.block{
     background-color: #F6F6F6;
 }
 
+.kiri{
+    position: absolute; margin-left: 10vw; margin-top: 60px; color: #8B7FDF;
+}
+
 .medsos{
     position: absolute;
-    margin-top: 210px;
-    margin-left:120px ;
+    margin-top: 8vh;
     display: flex;
+    gap: 1.5vw;
+}
+
+.peta{
+    position: absolute; right: 0; margin-top: 65px; margin-right: 130px; cursor: pointer;
 }
 
 .medsos img{
     cursor: pointer;
-    margin-right: 15px;
 }
 
 .trademark{
-    position: absolute;
+    background-color:#F6F6F6 ;
     font-weight: 300;
     color: rgb(189, 189, 189);
     font-size: 14px;
     text-align: center;
-    object-position: center;
     bottom: 0;
-    margin-bottom: 2vh;
-    margin-left: 47vw;
+    padding-bottom: 3vh;
 }
 
+/* Ini responsif navbar */
+
+@media screen and (max-width: 800px) {
+    .logo{
+        margin-left: 170px;
+    }
+ 
+    .menu{
+        margin-right: 25px;
+    }
+ 
+    nav ul li{
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .wrapper{
+        width: 500px;
+    }
+}
+/* Ini responsif navbar */
+
+@media screen and (max-width: 950px) {
+    .wrapper-isi{
+        margin-top: 26vh;
+    }
+
+    .wrapper-isi .judul-page{
+        text-align: center;
+        font-size: 50px;
+        /* border-style: solid; */
+    }
+
+    .top3{
+        /* border-style: solid; */
+        /* width: 30vw;
+        padding: 1vw 0vw 1vw 0vw;
+        font-weight: 600; */
+        font-size: 16px;
+    }
+
+    .top3 img{
+        width: 22vw;
+        height: 17vh;
+    }
+    
+    .card-artikel p:first-child {
+        font-size: 18px;
+        width: 180px;
+        /* border-style: solid; */
+    }
+
+    .card-artikel p:nth-child(2) {
+        font-size: 12px;
+        width: 180px;
+        /* border-style: solid; */
+    }
+
+    .button-artikel {
+        margin-top: 10px;
+        width: 185px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    
+      .peta{
+        width: 50vw;
+        margin-right: 20px;
+    }
+
+    .kiri{
+        margin-left: 20px;
+    }
+
+    .medsos img{
+        cursor: pointer;
+        width: 45px;
+    }
+
+    .medsos{
+        margin-top: 30px;
+    }
+}
 
