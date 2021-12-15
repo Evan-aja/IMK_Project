@@ -84,94 +84,28 @@ a.unblock{
     }
 }
 
-.framec{
-    position: absolute;
-    /* width: 100%; */
-    height: 54vh;
-    left: 33px;
-    right: 33px;
-    top: 130px;
-    overflow-y: initial;
-    overflow-x: hidden;
-
-    border: none;
-    box-sizing: border-box;
-    border-radius: 10px;
-    outline: none;
+.tbl-cs, .path-cs{
+    transition: 0.1s;
+    padding: 10px 15px 10px 15px;
+    position: fixed;
+    border-radius: 35px;
+    right: 10vw;
+    bottom: 0;
+    margin-bottom: 60px;
+    box-shadow: 0px 0px 10px 0.5px #D6D4FF;
+    z-index: 4;
+    background-color: white;
 }
-.frame{
-    /* Frame 5 */
 
-    position: absolute;
-    height: 80vh;
-    left: 210px;
-    right: 30px;
-    top: 100px;
-    overflow: hidden;
-
-    border: 1px solid #7B61FF;
-    box-sizing: border-box;
-    border-radius: 10px;
+.tbl-cs:hover .path-cs{
+    fill: white;
 }
-.search{
-    /* Group 188 */
 
-    position: absolute;
-    width: 238px;
-    height: 41px;
-    right: 33px;
-    /* left: 708px; */
-    top: 33px;
-
-    /* Rectangle 512 */
-
-    border: 1px solid #7B61FF;
-    box-sizing: border-box;
-    border-radius: 5px;
-    outline: none;
-
-    /* Cari permasalahanmu */
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-
-    color: rgba(79, 79, 79, 0.5);
+.tbl-cs:hover, .path-cs{
+    cursor: pointer;
+    background-color:#8B7FDF ;
 }
-.title{
-    /* Judul Artikel */
 
-    position: absolute;
-    width: 350px;
-    height: 43px;
-    left: 33px;
-    top: 31px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 49px;
-
-    color: #7B61FF;
-}
-.subtitle{
-    position: absolute;
-    width: 914px;
-    height: 32px;
-    left: 33px;
-    top: 84px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-
-    color: #000000;
-}
 .ind{
     position: absolute;
     width: 180px;
@@ -335,25 +269,26 @@ a.unblock{
     color: #4F4F4F;
 }
 .bhs2{
-/* Index Wiki Bahasa */
+    /* Index Wiki Bahasa */
 
-position: absolute;
-/* width: 198px; */
-height: 20px;
-left: 36px;
-top: 324px;
+    position: absolute;
+    /* width: 198px; */
+    height: 20px;
+    left: 36px;
+    top: 324px;
 
-font-family: Nunito;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 25px;
-background-color: transparent;
-border: none;
-outline: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
 
-color: #4F4F4F;
+    color: #4F4F4F;
 }
+
 .bhs3{
     position: absolute;
     /* width: 198px; */
@@ -372,135 +307,120 @@ color: #4F4F4F;
 
     color: #4F4F4F;
 }
-.quest{
-    /* Masalah apa yang anda alami? */
-    position: relative;
-    width: 916px;
-    height: 28px;
 
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 550;
-    font-size: 18px;
-    line-height: 25px;
+.frame{
+    /* Frame 5 */
 
-    color: #000000;
-}
-.frin{
-    /* Rectangle 2 */
-
-    position: relative;
-    width: 100%;
-    height: 124px;
-    
-    outline: none;
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
+    position: absolute;
+    height: 80vh;
+    left: 210px;
+    right: 30px;
+    top: 100px;
+    overflow: hidden;
 
     border: 1px solid #7B61FF;
     box-sizing: border-box;
     border-radius: 10px;
 }
-.kirim{
-    position: relative;
-    padding-top: 5px;
-    
-    font-weight: 600;
-    font-size: 18.8372px;
-    line-height: 26px;
-    text-align: center;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    
-    color: #FFFFFF;
-}
-.kotakkirim{
+.framec{
     position: absolute;
-    width: 103px;
-    height: 35px;
-    right: 35px;
-    top: 515%;
+    height: 62vh;
+    left: 33px;
+    right: 33px;
+    top: 90px;
+    overflow-y: initial;
+    overflow-x: hidden;
 
-    background: #8B7FDF;
-    border-radius: 6.51161px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
 }
-.thanks{
-    position: relative;
-    width: 100%;
-    height: 91px;
-    top: 200px;
+
+.search{
+    /* Group 188 */
+
+    position: absolute;
+    width: 238px;
+    height: 41px;
+    right: 33px;
+    /* left: 708px; */
+    top: 33px;
+
+    /* Rectangle 512 */
+
+    border: 1px solid #7B61FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+
+
+    /* Cari permasalahanmu */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: rgba(79, 79, 79, 0.5);
+}
+
+.title{
+    /* Judul Artikel */
+
+    position: absolute;
+    width: 350px;
+    height: 43px;
+    left: 33px;
+    top: 31px;
 
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
-    text-align: center;
 
-    color: #4F4F4F;
+    color: #7B61FF;
 }
-.thankstoo{
-    position: absolute;
-    width: 100%;
-    height: 91px;
-    top: 240px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 49px;
-    text-align: center;
-
-    color: #4F4F4F;
-}
-.return{
-    /* Button */
-
+.link{
     position: relative;
-    padding-top: 12px;
+    width: 95%;
+    right:33px;
+    left: 33px;
 
     font-family: Nunito;
     font-style: normal;
     font-weight: 600;
-    font-size: 18.9329px;
-    line-height: 26px;
-    text-align: center;
+    font-size: 25px;
+    line-height: 32px;
 
-    color: #FFFFFF;
+    color: #000000;
 }
-.kotakreturn{
-    position: absolute;
-    width: 120px;
-    height: 50px;
-    margin-left: 44.8%;
-    margin-top: 280px;
+.desc{
+    position: relative;
+    width: 95%;
+    right:33px;
+    left: 33px;
+    top: 10px;
 
-    background: #8B7FDF;
-    border-radius: 5.7622px;
-}
-.tbl-cs, .path-cs{
-    transition: 0.1s;
-    padding: 10px 15px 10px 15px;
-    position: fixed;
-    border-radius: 35px;
-    right: 10vw;
-    bottom: 0;
-    margin-bottom: 60px;
-    box-shadow: 0px 0px 10px 0.5px #D6D4FF;
-    z-index: 4;
-    background-color: white;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #4f4f4f;
 }
 
-.tbl-cs:hover .path-cs{
-    fill: white;
+.hype{
+    color: #8B7FDF;
 }
 
-.tbl-cs:hover, .path-cs{
-    cursor: pointer;
-    background-color:#8B7FDF ;
+.searchbox{
+    position: relative;
+    width: 100%;
+    top:30px;
+    outline: none;
+    border: none;
 }

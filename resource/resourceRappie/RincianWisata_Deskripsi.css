@@ -14,7 +14,7 @@
 }
 .brand-logo{
     padding-left: 7% !important;
-    padding-top: .8% !important;
+    padding-top: 1% !important;
 }
 .kotak{
     background-color: #8B7FDF;
@@ -179,4 +179,27 @@ Bagian Button Click
 
 .isiKomentar{
     padding-top: 3%;
+}
+.tbl-cs, .path-cs{
+    transition: 0.1s;
+    padding: 10px 15px 10px 15px;
+    position: fixed;
+    border-radius: 35px;
+    right: 2vw;
+    bottom: 0;
+    margin-bottom: 60px;
+    box-shadow: 0px 0px 10px 0.5px #D6D4FF;
+    z-index: 4;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+}
+
+.tbl-cs:hover .path-cs{
+    fill: white;
+}
+
+.tbl-cs:hover, .path-cs{
+    cursor: pointer;
+    background-color:#8B7FDF ;
 }

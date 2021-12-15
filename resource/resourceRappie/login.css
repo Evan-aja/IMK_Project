@@ -4,18 +4,29 @@
     padding: 0;
     margin: 0;
 }
-
+button{
+    border: 0.1px solid black !important;
+}
+button:active{
+    background-color:  #6354C8 !important;
+}
+button::after{
+    display: none;
+}
 /* navbar */
 .brand-logo{
     padding-left: 3% !important
 }
 .nav-wrapper{
     padding-top: 1.7% !important;
+    padding-right: 4% !important;
 }
 .nav-wrapper a:hover{
     background-color: white !important;
 }
-
+.side-nav{
+   background-color:whitesmoke !important;
+}
 .textset{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -90,13 +101,18 @@
     position: relative;
     background-color: #8B7FDF !important;
     color: white;
+    border: .1px solid black;
     padding: 5px 40px 5px 40px;
     border-radius: 5px;
     font-size: 20px;
     display: inline-block;
     left: 25%;
+    cursor: pointer;
 }
 
+.tombol:active{
+    background-color: #6354C8 !important;
+}
 .textundertombol{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -109,6 +125,30 @@
     bottom: 4%;
     right: 2%; 
     width: 55px;
+}
+
+.tbl-cs, .path-cs{
+    transition: 0.1s;
+    padding: 10px 15px 10px 15px;
+    position: fixed;
+    border-radius: 35px;
+    right: 6vw;
+    bottom: 0;
+    margin-bottom: 60px;
+    box-shadow: 0px 0px 10px 0.5px #D6D4FF;
+    z-index: 4;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+}
+
+.tbl-cs:hover .path-cs{
+    fill: white;
+}
+
+.tbl-cs:hover, .path-cs{
+    cursor: pointer;
+    background-color:#8B7FDF ;
 }
 
 /* label underline focus color */
@@ -189,12 +229,17 @@
     color: white;
     padding: 5px 40px 5px 40px;
     border-radius: 5px;
-    border:1px 1px #8B7FDF;
+    border:.2px solid #000000;
     font-size: 20px;
     display: inline-block;
     left: 25%;
     margin-top: 120px;
+    cursor: pointer;
 }
+.tombol2:active{
+    background-color: #6354C8;
+}
+
 
 .textundertombol3{
     font-family: 'Nunito', sans-serif;

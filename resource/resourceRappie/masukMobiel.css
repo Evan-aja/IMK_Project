@@ -1,0 +1,8 @@
+@media screen and (max-width: 800px) {
+    .menudaftar2{
+        right: 20% !important;
+    }
+    .tombol2{
+        margin-left: 7%;
+    }
+}
