@@ -13,8 +13,11 @@ button:active{
 button::after{
     display: none;
 }
+.row{
+    padding-top: 100px;
+}
 /* navbar */
-.brand-logo{
+/* .brand-logo{
     padding-left: 3% !important
 }
 .nav-wrapper{
@@ -27,6 +30,13 @@ button::after{
 .side-nav{
    background-color:whitesmoke !important;
 }
+
+.kotak{
+    background-color: #8B7FDF;
+    color: white;
+    padding: 10px 16px 10px 16px;
+    border-radius: 6.51161px;
+} */
 .textset{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -34,12 +44,7 @@ button::after{
     font-size: 18.8372px;
     color:  #8B7FDF;    
 }
-.kotak{
-    background-color: #8B7FDF;
-    color: white;
-    padding: 10px 16px 10px 16px;
-    border-radius: 6.51161px;
-}
+
 .logintitle{
     padding-top: 11%;
 }
@@ -208,7 +213,7 @@ button::after{
     background-color: rgb(255, 255, 255);
     box-shadow: 0.7px .4px 6px 1px #000;
     display: block;
-    margin-top: 7%;
+    margin-top: 15%;
     margin-left: 30%;
     margin-bottom: 7%;
 }
