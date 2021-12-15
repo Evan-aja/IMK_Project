@@ -7,8 +7,10 @@
 
 /* navbar */
 .brand-logo{
-    padding-left: 3% !important;
-    padding-top: .7% !important;
+    padding-left: 3% !important
+}
+.nav-wrapper{
+    padding-top: 1.7% !important;
 }
 .nav-wrapper a:hover{
     background-color: white !important;
@@ -116,7 +118,7 @@
     position: absolute;
     width: 300px;
     height: 75px;
-    left: 600px;
+    left: 550px;
     border-radius: 10px;
     top: 150px;
     background-color: #8B7FDF;
@@ -144,6 +146,7 @@
 .gopaybox{
     width: 56px;
     height: 20px;
+    padding: 1px 1px 0px 1px;
     background-color: #FFFFFF;
     border-radius: 7px;
 }
@@ -151,14 +154,14 @@
 .kotak2{
     background-color: white;
     color: #8B7FDF;
-    padding: 10px 16px 10px 16px;
+    padding: 5px 10px 5px 10px;
     border-radius: 6.51161px;
 }
 
 .atursaldo{
     position: absolute;
     right: 15px;
-    bottom: 15px;
+    bottom: 17.5px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -167,4 +170,215 @@
 }
 img{
     border-radius: 10%;
+}
+
+.nama{
+    position: absolute;
+    left: 400px;
+    top: 325px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18.8372px;
+    color:  #000000;  
+}
+
+.email{
+    position: absolute;
+    left: 400px;
+    top: 375px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18.8372px;
+    color:  #000000;  
+}
+
+.hp{
+    position: absolute;
+    left: 400px;
+    top: 425px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18.8372px;
+    color:  #000000;  
+}
+
+.password{
+    position: absolute;
+    left: 400px;
+    top: 475px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18.8372px;
+    color:  #000000;  
+}
+
+.nama2{
+    position: absolute;
+    left: 525px;
+    top: 325px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8372px;
+    color:  #000000;  
+}
+
+.email2{
+    position: absolute;
+    left: 525px;
+    top: 375px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8372px;
+    color:  #000000;  
+}
+
+.hp2{
+    position: absolute;
+    left: 525px;
+    top: 425px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8372px;
+    color:  #000000;  
+}
+
+.password2{
+    position: absolute;
+    left: 525px;
+    top: 475px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8372px;
+    color:  #000000;  
+}
+
+
+.ubahnama{
+    position: absolute;
+    right: 125px;
+    top: 325px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8372px;
+    background-color: white;
+    color: #8B7FDF;
+    border-color: #8B7FDF;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2px 40px 2px 40px;
+    border-radius: 6.51161px;
+}
+
+.ubahemail{
+    position: absolute;
+    right: 125px;
+    top: 375px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8372px;
+    background-color: white;
+    color: #8B7FDF;
+    border-color: #8B7FDF;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2px 40px 2px 40px;
+    border-radius: 6.51161px;
+}
+
+.ubahhp{
+    position: absolute;
+    right: 125px;
+    top: 425px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8372px;
+    background-color: white;
+    color: #8B7FDF;
+    border-color: #8B7FDF;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2px 40px 2px 40px;
+    border-radius: 6.51161px;
+}
+
+.ubahpassword{
+    position: absolute;
+    right: 125px;
+    top: 475px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8372px;
+    background-color: white;
+    color: #8B7FDF;
+    border-color: #8B7FDF;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2px 40px 2px 40px;
+    border-radius: 6.51161px;
+}
+
+.konfirmasi{
+    position: absolute;
+    right: 125px;
+    top: 550px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18.8372px;
+    background-color: #8B7FDF;
+    color: #FFFFFF;
+    padding: 8px 60px 8px 60px;
+    border-radius: 6.51161px;
+}
+
+.tbl-cs, .path-cs{
+    transition: 0.1s;
+    padding: 10px 15px 10px 15px;
+    position: fixed;
+    border-radius: 35px;
+    right: 10vw;
+    bottom: 0;
+    margin-bottom: 60px;
+    box-shadow: 0px 0px 10px 0.5px #D6D4FF;
+    z-index: 4;
+    background-color: white;
+}
+
+.tbl-cs:hover .path-cs{
+    fill: white;
+}
+
+.tbl-cs:hover, .path-cs{
+    cursor: pointer;
+    background-color:#8B7FDF ;
+}
+
+.tekskonfirmasi{
+    position: absolute;
+    right: 125px;
+    top: 600px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10;
+    color: #8B7FDF;
+}
+
+.mainbox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top
 }
