@@ -220,11 +220,13 @@ a.unblock{
     cursor: pointer;
     background-color:#8B7FDF ;
 }
+
+
 .kotak{
 
     color: white;
     padding: 10px 16px 10px 16px;
-    
+
 }
 
 .sidebar{
@@ -248,9 +250,7 @@ a.unblock{
     text-align: center;
     vertical-align: middle;
     
-    color: #FFFFFF;    
-    background-color: #8B7FDF;
-    border-radius: 6.51161px;
+    color: #8B7FDF;    
     padding: 10px 16px 10px 16px;
 }
 
@@ -267,7 +267,8 @@ a.unblock{
     text-align: center;
     vertical-align: middle;
     
-    color: #8B7FDF;    
+    color: #8B7FDF;   
+
     padding: 10px 16px 10px 16px;
 }
 
@@ -283,8 +284,9 @@ a.unblock{
     line-height: 26px;
     text-align: center;
     vertical-align: middle;
-    
-    color: #8B7FDF;    
+    color: #FFFFFF;    
+    background-color: #8B7FDF;
+    border-radius: 6.51161px;
     padding: 10px 16px 10px 16px;
 }
 
@@ -301,282 +303,8 @@ a.unblock{
     text-align: center;
     vertical-align: middle;
     
-    color: #CE1B1B;  
-    padding: 10px 16px 10px 16px;  
-}
-
-.foto{
-    position: absolute;
-    left: 100px;
-    top: 25px;
-}
-
-.gantifoto{
-    position: absolute;
-    left: 185px;
-    top: 110px;
-}
-
-.gopay{
-    position: absolute;
-    width: 300px;
-    height: 75px;
-    left: 250px;
-    border-radius: 10px;
-    top: 50px;
-    background-color: #8B7FDF;
-}
-
-.saldo{
-    position: absolute;
-    left: 15px;
-    bottom: 15px;
-    
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: left;
-    vertical-align: bottom;
-    color: #FFFFFF;    
-}
-
-.gopaylogo{
-    position: absolute;
-    left: 15px;
-    top: 7px;
-}
-
-.gopaybox{
-    width: 56px;
-    height: 22px;
-
-    background-color: #FFFFFF;
-    border-radius: 7px;
-}
-
-.kotak2{
-    background-color: white;
-    color: #8B7FDF;
-    padding: 5px 10px 5px 10px;
-    border-radius: 6.51161px;
-}
-
-.atursaldo{
-    position: absolute;
-    right: 15px;
-    bottom: 17.5px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18.8372px;
-    color:  #8B7FDF;    
-}
-img{
-    border-radius: 10%;
-}
-
-.nama{
-    position: absolute;
-    left: 100px;
-    top: 225px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18.8372px;
-    color:  #000000;  
-}
-
-.email{
-    position: absolute;
-    left: 100px;
-    top: 275px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18.8372px;
-    color:  #000000;  
-}
-
-.hp{
-    position: absolute;
-    left: 100px;
-    top: 325px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18.8372px;
-    color:  #000000;  
-}
-
-.password{
-    position: absolute;
-    left: 100px;
-    top: 375px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18.8372px;
-    color:  #000000;  
-}
-
-.nama2{
-    position: absolute;
-    left: 225px;
-    top: 225px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18.8372px;
-    color:  #000000;  
-}
-
-.email2{
-    position: absolute;
-    left: 225px;
-    top: 275px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18.8372px;
-    color:  #000000;  
-}
-
-.hp2{
-    position: absolute;
-    left: 225px;
-    top: 325px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18.8372px;
-    color:  #000000;  
-}
-
-.password2{
-    position: absolute;
-    left: 225px;
-    top: 375px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18.8372px;
-    color:  #000000;  
-}
-
-
-.ubahnama{
-    position: absolute;
-    right: 125px;
-    top: 225px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18.8372px;
-    background-color: white;
-    color: #8B7FDF;
-    border-color: #8B7FDF;
-    border-width: 1px;
-    border-style: solid;
-    padding: 2px 40px 2px 40px;
-    border-radius: 6.51161px;
-}
-
-.ubahemail{
-    position: absolute;
-    right: 125px;
-    top: 275px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18.8372px;
-    background-color: white;
-    color: #8B7FDF;
-    border-color: #8B7FDF;
-    border-width: 1px;
-    border-style: solid;
-    padding: 2px 40px 2px 40px;
-    border-radius: 6.51161px;
-}
-
-.ubahhp{
-    position: absolute;
-    right: 125px;
-    top: 325px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18.8372px;
-    background-color: white;
-    color: #8B7FDF;
-    border-color: #8B7FDF;
-    border-width: 1px;
-    border-style: solid;
-    padding: 2px 40px 2px 40px;
-    border-radius: 6.51161px;
-}
-
-.ubahpassword{
-    position: absolute;
-    right: 125px;
-    top: 375px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18.8372px;
-    background-color: white;
-    color: #8B7FDF;
-    border-color: #8B7FDF;
-    border-width: 1px;
-    border-style: solid;
-    padding: 2px 40px 2px 40px;
-    border-radius: 6.51161px;
-}
-
-.konfirmasi{
-    position: absolute;
-    right: 125px;
-    top: 450px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18.8372px;
-    background-color: #8B7FDF;
-    color: #FFFFFF;
-    padding: 8px 60px 8px 60px;
-    border-radius: 6.51161px;
-}
-
-.tbl-cs, .path-cs{
-    transition: 0.1s;
-    padding: 10px 15px 10px 15px;
-    position: fixed;
-    border-radius: 35px;
-    right: 10vw;
-    bottom: 0;
-    margin-bottom: 60px;
-    box-shadow: 0px 0px 10px 0.5px #D6D4FF;
-    z-index: 4;
-    background-color: white;
-}
-
-.tbl-cs:hover .path-cs{
-    fill: white;
-}
-
-.tbl-cs:hover, .path-cs{
-    cursor: pointer;
-    background-color:#8B7FDF ;
-}
-
-.tekskonfirmasi{
-    position: absolute;
-    right: 125px;
-    top: 500px;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10;
-    color: #8B7FDF;
+    color: #CE1B1B;    
+    padding: 10px 16px 10px 16px;
 }
 
 .mainbox{
@@ -584,4 +312,78 @@ img{
     width: 80vw;
     top: 100px;
     left: 20vw;
+}
+
+.wishlisttext{
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    font-weight: 800;
+    font-size: 34px;
+    color: #000000;
+}
+
+.cardbox{
+    position: absolute;
+    width: 80vw;
+    top: 100px;
+    left: 100px;
+}
+
+.card1{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 0px;
+    border-radius: 10px;
+    top: 5px;
+    border-style: solid;
+    border-color: #8B7FDF;
+    border-width: 2px;
+}
+
+.card2{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 175px;
+    border-radius: 10px;
+    top: 5px;
+    border-style: solid;
+    border-color: #8B7FDF;
+    border-width: 2px;
+}
+
+.cardphoto{
+    position: absolute;
+    top: 10px;
+    left: 13px;
+}
+
+.cardname{
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18.8372px;
+    line-height: 26px;
+    color: #8B7FDF;
+}
+
+.cardlocation{
+    position: absolute;
+    bottom: 18px;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.cardplus{
+    position: absolute;
+    top: 38px;
+    right: 14px;
 }
