@@ -191,3 +191,24 @@ a.unblock{
     text-decoration: none;
     color: #ffffff;
 }
+.tbl-cs, .path-cs{
+    transition: 0.1s;
+    padding: 10px 15px 10px 15px;
+    position: fixed;
+    border-radius: 35px;
+    right: 10vw;
+    bottom: 0;
+    margin-bottom: 60px;
+    box-shadow: 0px 0px 10px 0.5px #D6D4FF;
+    z-index: 4;
+    background-color: white;
+}
+
+.tbl-cs:hover .path-cs{
+    fill: white;
+}
+
+.tbl-cs:hover, .path-cs{
+    cursor: pointer;
+    background-color:#8B7FDF ;
+}
