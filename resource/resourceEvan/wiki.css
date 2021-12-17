@@ -83,11 +83,16 @@ a.unblock{
         width: 500px;
         height: 100px;
     }
-    .frame, .ind, .index1, .index2, .index3, .index4, .bhs, .bhs1, .bhs2, .bhs3{
+    .frame, .ind, .index1, .index2, .index3, .index4{
         margin-top: 70px;
     }
 }
 @media screen and (max-width: 800px){
+    .subtitle{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 850px){
     .search{
         visibility: hidden;
     }
@@ -218,81 +223,6 @@ a.unblock{
 
     color: #4F4F4F;
 }
-.bhs{
-    /* Index Wiki Bahasa */
-
-    position: absolute;
-    width: 180px;
-    height: 20px;
-    left: 30px;
-    top: 265px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 23.1429px;
-    line-height: 32px;
-
-    color: #4F4F4F;
-}
-.bhs1{
-/* Index Wiki Bahasa */
-
-    position: absolute;
-    /* width: 198px; */
-    height: 20px;
-    left: 36px;
-    top: 302px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-
-    color: #4F4F4F;
-}
-.bhs2{
-    /* Index Wiki Bahasa */
-
-    position: absolute;
-    /* width: 198px; */
-    height: 20px;
-    left: 36px;
-    top: 324px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-
-    color: #4F4F4F;
-}
-.bhs3{
-    position: absolute;
-    /* width: 198px; */
-    height: 20px;
-    left: 36px;
-    top: 346px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-
-    color: #4F4F4F;
-}
 .search{
     /* Group 188 */
 
@@ -340,7 +270,6 @@ a.unblock{
     /* Judul Artikel */
 
     position: absolute;
-    width: 217px;
     height: 43px;
     left: 33px;
     top: 31px;
@@ -376,7 +305,7 @@ a.unblock{
     width: 95%;
     right:33px;
     left: 33px;
-    top: 135px;
+    top: 155px;
 
     font-family: Nunito;
     font-style: normal;
