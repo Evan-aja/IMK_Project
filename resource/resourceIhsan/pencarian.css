@@ -228,6 +228,10 @@ footer p{
     text-align: center;
     object-position: center;
 }
+.wrapper-wisata a:visited{
+    color: black;
+}
+
 
 /* Ini responsif navbar */
 
