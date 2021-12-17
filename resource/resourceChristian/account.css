@@ -64,7 +64,7 @@ a.unblock{
     color: #8B7FDF;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .logo{
         margin-left: 170px;
     }
@@ -81,6 +81,18 @@ a.unblock{
     .wrapper{
         width: 500px;
         height: 130px;
+    }
+    
+    .mainbox{
+        margin-top: 50px;
+    }
+
+    .sidebar{
+        margin-top: 50px;
+    }
+
+    .account{
+        font-size: 2vw;
     }
 }
 
@@ -230,9 +242,9 @@ a.unblock{
 .sidebar{
     position: absolute;
     width: 20vw;
-    height: 100%;
+    height: 80%;
     left: 0px;
-    top: 0px;
+    top: 100px;
 }
 
 .account{
@@ -240,7 +252,7 @@ a.unblock{
     width: 14vw;
     height: 50px;
     left: 3vw;
-    top: 125px;
+    top: 25px;
     
     font-weight: 600;
     font-size: 18.8372px;
@@ -259,7 +271,7 @@ a.unblock{
     width: 14vw;
     height: 50px;
     left: 3vw;
-    top: 200px;
+    top: 100px;
     
     font-weight: 600;
     font-size: 18.8372px;
@@ -276,7 +288,7 @@ a.unblock{
     width: 14vw;
     height: 50px;
     left: 3vw;
-    top: 275px;
+    top: 175px;
     
     font-weight: 600;
     font-size: 18.8372px;
@@ -293,7 +305,7 @@ a.unblock{
     width: 14vw;
     height: 50px;
     left: 3vw;
-    top: 350px;
+    top: 250px;
     
     font-weight: 600;
     font-size: 18.8372px;
