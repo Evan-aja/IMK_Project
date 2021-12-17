@@ -88,6 +88,11 @@ a.unblock{
     }
 }
 @media screen and (max-width: 800px){
+    .subtitle{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 850px){
     .search{
         visibility: hidden;
     }
