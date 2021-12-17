@@ -18,9 +18,7 @@
 .wrapper a:hover{
     background-color: white !important;
 }
-.wrapper ul li:nth-child(4) a:hover{
-    background-color: #8B7FDF !important    ;
-}
+
 nav {
     position: absolute;
     width: 100%;
@@ -32,7 +30,6 @@ nav {
     top: 0;
     background: #FFFFFF;
     z-index: 1;
-    /* border-style: solid; */
 }
 
 nav ul {

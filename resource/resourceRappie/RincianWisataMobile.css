@@ -1,11 +1,12 @@
 @media screen and (max-width: 800px) {
-    .kontenKiri{
-        left: -14% !important;
-    }
-    .kotaaak{
-        margin-left: 12% !important;
+    .kontenKiri img{
+        margin-top: 5%;
+        left: 5% !important;
     }
     .kotakContent:nth-child(4){
         margin-top: 2%;
+    }
+    .textWisata{
+        width: 90%;
     }
 }
