@@ -83,7 +83,7 @@ a.unblock{
         width: 500px;
         height: 100px;
     }
-    .frame, .ind, .index1, .index2, .index3, .index4, .bhs, .bhs1, .bhs2, .bhs3{
+    .frame, .ind, .index1, .index2, .index3, .index4{
         margin-top: 70px;
     }
 }
@@ -245,82 +245,6 @@ a.unblock{
     line-height: 25px;
     /* identical to box height */
     text-align: center;
-    background-color: transparent;
-    border: none;
-    outline: none;
-
-    color: #4F4F4F;
-}
-.bhs{
-    /* Index Wiki Bahasa */
-
-    position: absolute;
-    width: 180px;
-    height: 20px;
-    left: 30px;
-    top: 265px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 23.1429px;
-    line-height: 32px;
-
-    color: #4F4F4F;
-}
-.bhs1{
-/* Index Wiki Bahasa */
-
-    position: absolute;
-    /* width: 198px; */
-    height: 20px;
-    left: 36px;
-    top: 302px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-
-    color: #4F4F4F;
-}
-.bhs2{
-    /* Index Wiki Bahasa */
-
-    position: absolute;
-    /* width: 198px; */
-    height: 20px;
-    left: 36px;
-    top: 324px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-
-    color: #4F4F4F;
-}
-
-.bhs3{
-    position: absolute;
-    /* width: 198px; */
-    height: 20px;
-    left: 36px;
-    top: 346px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
     background-color: transparent;
     border: none;
     outline: none;
