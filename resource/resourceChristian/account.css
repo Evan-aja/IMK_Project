@@ -64,6 +64,15 @@ a.unblock{
     color: #8B7FDF;
 }
 
+a.block:hover{
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+
+a.unblock:hover{
+    color: #8B7FDF !important;
+    text-decoration: none !important;
+}
 
 @media screen and (max-width: 800px) {
     .logo{
@@ -131,120 +140,6 @@ a.unblock{
     }
 }
 
-.judul{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    height: 82.03px;
-    top: 140px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 1000;
-    font-size: 69.376px;
-    line-height: 95px;
-
-    color: #7969E8;
-}
-.subjudul{
-    position: absolute;
-    /* width: 295px; */
-    width: 100%;
-    text-align: center;
-    height: 28.8px;
-    /* left: 139px; */
-    top: 225px;
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24.3642px;
-    line-height: 33px;
-
-    color: #7969E8;
-}
-.b1{
-    /* primary1 */
-
-    width: 312.98px;
-    height: 52.16px;
-    display: block;
-    margin: auto;
-    margin-top: 301px;
-
-
-    /* Rectangle 3 */
-    background: #8B7FDF;
-    border-radius: 6.9902px;
-
-
-    /* Button */
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22.9678px;
-    line-height: 31px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-.b2{
-    /* primary1 */
-
-    width: 312.98px;
-    height: 52.16px;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-
-
-    
-    /* Rectangle 3 */
-
-    background: #8B7FDF;
-    border-radius: 6.9902px;
-
-
-    /* Button */
-
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22.9678px;
-    line-height: 31px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-.b3{
-    /* primary1 */
-
-    width: 312.98px;
-    height: 52.16px;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-
-    /* Rectangle 3 */
-
-    background: #8B7FDF;
-    border-radius: 6.9902px;
-
-
-    /* Button */
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22.9678px;
-    line-height: 31px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-.b1:hover,.b2:hover,.b3:hover{
-    text-decoration: dashed;
-}
 
 .tbl-cs, .path-cs{
     transition: 0.1s;
@@ -350,23 +245,6 @@ a.unblock{
     
     color: #CE1B1B;  
     padding: 10px 16px 10px 16px;  
-}
-
-.account:hover{
-    color: #0056b3;
-    text-decoration: underline;
-}
-
-.wishlist:hover{
-    color: #0056b3;
-    text-decoration: underline;
-}
-.history:hover{
-    color: #0056b3;
-    text-decoration: underline;
-}
-.logout:hover{
-    text-decoration: underline;
 }
 
 .foto{
