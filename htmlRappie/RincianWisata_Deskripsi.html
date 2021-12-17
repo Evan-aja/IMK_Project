@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../resource/resourceRappie/login.css"> 
-    <link rel="stylesheet" href="../resource/resourceRappie/masukMobiel.css"> 
+    <link rel="stylesheet" href="../resource/resourceRappie/RincianWisataMobile.css">
     <link rel="stylesheet" href="../resource/resourceRappie/RincianWisata_Deskripsi.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -23,10 +23,10 @@
                 <li ><a href="../index.html">Menu Utama</a></li>
                   <li><a  href="../htmlIhsan/tentang.html">Tentang</a></li>
                   <li><a  href="../htmlEvan/MainMenu.html">Bantuan</a></li>
-                  <li><a class="block" href="../htmlRappie/masuk.html" class="tbl-biru">Masuk</a></li>
+                  <li><a  href="../htmlChristian/account.html">Akun</a></li>
               </ul>
           </div>
-      </div>
+      </div>s
     </nav>
 
     <!-- Main -->
@@ -34,9 +34,9 @@
         <!-- Konten Kiri -->
         <div class="col m5 s12 l5">
             <div class="kontenKiri">
-                <img src="../resource/potoWisataDeskripsi.jpeg" alt="">
+                <img src="../resource/resourceRappie/Frame18.png" alt="">
                 <div class="kotaaak">
-                    <a href="#" class="kotakKiri1">Pesan Guide Ini Sekarang</a>
+                    <a href="#" class="kotakKiri1">Pesan Guide Sekarang</a>
                     <a href="#" class="kotakKiri2">Ulas Wisata Ini</a>
                 </div>
             </div>
@@ -55,9 +55,7 @@
                     <div class="kotakContent" id="one">Deskripsi</div>
                     <div class="kotakContent" id="two">Peraturan</div>
                     <div class="kotakContent" id="three">Komentar</div>
-                    <a class="kotakContent" target="_blank" href="https://www.google.com/maps/place/Gn.+Bromo/@-7.9424931,112.9355026,14z/data=!3m1!4b1!4m5!3m4!1s0x2dd637aaab794a41:0xada40d36ecd2a5dd!8m2!3d-7.9424936!4d112.9530122">
-                        <img src="../resource/Vector.png" alt="Maps">
-                    </a>
+
                 </div>
                 <div class="underbutton">
                     Jam Buka : <span class="underButtonText">00.00 - 23.59 WIB</span> 
@@ -92,7 +90,7 @@
                     <div class="komentar displaynone">
                         <div class="kotakKomentar">
                             <div class="namaKomentar">
-                                <img src="../resource/profilKomentar.jpeg" class="photoKomentar" alt="">
+                                <img src="../resource/resourceRappie/ihsanPP.png" class="photoKomentar" alt="">
                                 <p>Al'Ravie Mahesa</p>
                             </div>
                             <p class="isiKomentar">
@@ -101,20 +99,20 @@
                         </div>
                         <div class="kotakKomentar">
                             <div class="namaKomentar">
-                                <img src="../resource/profilKomentar.jpeg" class="photoKomentar" alt="">
+                                <img src="../resource/resourceRappie/photoppKomen.png" class="photoKomentar" alt="">
                                 <p>Al'Ravie</p>
                             </div>
                             <p class="isiKomentar">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cumque libero. Rerum illum porro eligendi corrupti nihil dolorum natus at in voluptatem. Vel eligendi impedit aliquid quaerat culpa sit asperiores nemo? Odit dignissimos iusto soluta natus magni facere laudantium obcaecati nobis, expedita fugiat animi sequi error. Modi laudantium magni ratione.
+                                Tips buat temen - temen yang baru ke Bromo . Pesen Tourguide di JalanYuk aja. Karna di JalanYuk Tourguide nya udah terpercaya dan pasti rekomendasi spot - spot yang paling asik di Bromo. 
                             </p>
                         </div>
                         <div class="kotakKomentar">
                             <div class="namaKomentar">
-                                <img src="../resource/profilKomentar.jpeg" class="photoKomentar" alt="">
+                                <img src="../resource/resourceRappie/ihsanPP.png" class="photoKomentar" alt="">
                                 <p>Al'Ravie</p>
                             </div>
                             <p class="isiKomentar">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus assumenda blanditiis amet maiores numquam dolorem!
+                               Keren banget couuy!
                             </p>
                         </div>
                     </div>
@@ -142,6 +140,8 @@
         let peraturan = document.querySelector('#one');
         let deskripsi = document.querySelector('#two');
         let komentar = document.querySelector('#three')
+
+        
 
         komentar.addEventListener('click',function(){
             komn.classList.remove('displaynone')
