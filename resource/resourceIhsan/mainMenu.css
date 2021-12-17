@@ -122,7 +122,7 @@ body {
 
 /* ------Navbar baru mulai dari sini------- */
 .wrapper {
-    width: 1400px;
+    width: 92%;
     margin: auto;
     position: relative;
 }
@@ -502,6 +502,11 @@ a.block{
     bottom: 0;
     padding-bottom: 3vh;
 }
+
+.wrapper-wisata a:visited{
+    color: black;
+}
+
 
 /* Ini responsif navbar */
 
