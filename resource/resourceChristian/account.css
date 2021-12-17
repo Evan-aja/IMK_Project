@@ -64,7 +64,8 @@ a.unblock{
     color: #8B7FDF;
 }
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 800px) {
     .logo{
         margin-left: 170px;
     }
@@ -81,6 +82,52 @@ a.unblock{
     .wrapper{
         width: 500px;
         height: 130px;
+    }
+    
+    .mainbox{
+        margin-top: 50px;
+        left: 160px !important;
+    }
+
+    .sidebar{
+        margin-top: 50px;
+        width: 160px !important;
+    }
+
+    .account{
+        width: 112px !important;
+        left: 24px !important;
+    }
+
+    .logout{
+        width: 112px !important;
+        left: 24px !important;
+    }
+
+    .wishlist{
+        width: 112px !important;
+        left: 24px !important;
+    }
+
+    .history{
+        width: 112px !important;
+        left: 24px !important;
+    }
+
+    .ubahemail{
+        display: none !important;
+    }
+
+    .ubahnama{
+        display: none !important;
+    }
+
+    .ubahhp{
+        display: none !important;
+    }
+
+    .ubahpassword{
+        display: none !important;
     }
 }
 
@@ -230,9 +277,9 @@ a.unblock{
 .sidebar{
     position: absolute;
     width: 20vw;
-    height: 100%;
+    height: 80%;
     left: 0px;
-    top: 0px;
+    top: 100px;
 }
 
 .account{
@@ -240,7 +287,7 @@ a.unblock{
     width: 14vw;
     height: 50px;
     left: 3vw;
-    top: 125px;
+    top: 25px;
     
     font-weight: 600;
     font-size: 18.8372px;
@@ -259,7 +306,7 @@ a.unblock{
     width: 14vw;
     height: 50px;
     left: 3vw;
-    top: 200px;
+    top: 100px;
     
     font-weight: 600;
     font-size: 18.8372px;
@@ -276,7 +323,7 @@ a.unblock{
     width: 14vw;
     height: 50px;
     left: 3vw;
-    top: 275px;
+    top: 175px;
     
     font-weight: 600;
     font-size: 18.8372px;
@@ -293,7 +340,7 @@ a.unblock{
     width: 14vw;
     height: 50px;
     left: 3vw;
-    top: 350px;
+    top: 250px;
     
     font-weight: 600;
     font-size: 18.8372px;
@@ -324,13 +371,13 @@ a.unblock{
 
 .foto{
     position: absolute;
-    left: 100px;
+    left: 6vw;
     top: 25px;
 }
 
 .gantifoto{
     position: absolute;
-    left: 185px;
+    left:calc(6vw + 85px);
     top: 110px;
 }
 
@@ -338,7 +385,7 @@ a.unblock{
     position: absolute;
     width: 300px;
     height: 75px;
-    left: 250px;
+    left: calc(6vw + 150px);
     border-radius: 10px;
     top: 50px;
     background-color: #8B7FDF;
@@ -394,7 +441,7 @@ img{
 
 .nama{
     position: absolute;
-    left: 100px;
+    left: 6vw;
     top: 225px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -405,7 +452,7 @@ img{
 
 .email{
     position: absolute;
-    left: 100px;
+    left: 6vw;
     top: 275px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -416,7 +463,7 @@ img{
 
 .hp{
     position: absolute;
-    left: 100px;
+    left: 6vw;
     top: 325px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -427,7 +474,7 @@ img{
 
 .password{
     position: absolute;
-    left: 100px;
+    left: 6vw;
     top: 375px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -438,7 +485,7 @@ img{
 
 .nama2{
     position: absolute;
-    left: 225px;
+    left: calc(6vw + 125px);
     top: 225px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -449,7 +496,7 @@ img{
 
 .email2{
     position: absolute;
-    left: 225px;
+    left: calc(6vw + 125px);
     top: 275px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -460,7 +507,7 @@ img{
 
 .hp2{
     position: absolute;
-    left: 225px;
+    left: calc(6vw + 125px);
     top: 325px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
@@ -471,7 +518,7 @@ img{
 
 .password2{
     position: absolute;
-    left: 225px;
+    left: calc(6vw + 125px);
     top: 375px;
     font-family: 'Nunito', sans-serif;
     font-style: normal;

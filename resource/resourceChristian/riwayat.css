@@ -64,7 +64,13 @@ a.unblock{
     color: #8B7FDF;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 655px) {
+    .cardbox{
+        top: 150px !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
     .logo{
         margin-left: 170px;
     }
@@ -81,6 +87,36 @@ a.unblock{
     .wrapper{
         width: 500px;
         height: 130px;
+    }
+
+    .mainbox{
+        margin-top: 50px;
+        left: 160px !important;
+    }
+
+    .sidebar{
+        margin-top: 50px;
+        width: 160px !important;
+    }
+
+    .account{
+        width: 112px !important;
+        left: 24px !important;
+    }
+
+    .logout{
+        width: 112px !important;
+        left: 24px !important;
+    }
+
+    .wishlist{
+        width: 112px !important;
+        left: 24px !important;
+    }
+
+    .history{
+        width: 112px !important;
+        left: 24px !important;
     }
 }
 
@@ -333,7 +369,7 @@ a.unblock{
 
 .riwayatpemesanan{
     position: absolute;
-    left: 100px;
+    left: 6vw;
     top: 25px;
     font-weight: 800;
     font-size: 34px;
@@ -344,7 +380,8 @@ a.unblock{
     position: absolute;
     width: 80vw;
     top: 100px;
-    left: 100px;
+    left: 6vw;
+    margin-top: 10px;
 }
 
 .card1{
