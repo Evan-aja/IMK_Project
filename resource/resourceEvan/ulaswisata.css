@@ -6,6 +6,10 @@
 body{
     font-family: 'Nunito', sans-serif;
     font-style: normal;
+    background-image: url("./vector-comment.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .wrapper {
     width: 90%;
@@ -87,8 +91,15 @@ a.unblock{
         width: 500px;
         height: 100px;
     }
-    .frame, .ind, .index1, .index2, .index3, .index4{
+}
+@media screen and (max-width: 740px) {
+    .frame{
         margin-top: 70px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .frame{
+        margin-top: 100px;
     }
 }
 .tbl-cs, .path-cs{
@@ -127,4 +138,56 @@ a.unblock{
     background: silver;
     border-radius: 50px;
     height: 20px;
+}
+.frame{
+    position: absolute;
+    height: 30vh;
+    left: 210px;
+    right: 15.4%;
+    top: 40%;
+    overflow-y: auto;
+    background-color: white;
+    border: 2px solid #7B61FF;
+    border-radius: 8px;
+    padding: 5px;
+    overflow: hidden;
+}
+.ulasan{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 30.5vh;
+    width: 68.5vw;
+    outline: none;
+}
+.title{
+    font-size: 50px;
+    margin-top: 180px;
+    margin-left: 200px;
+}
+.cancel{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #6354C8;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+    bottom: -38vh;
+    left: 40%;
+}
+.conf{
+    font-size: 20px;
+    border: 1px solid #6354C8;
+    background-color: #6354C8;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+    bottom: -38vh;
+    left: 45%;
+}
+.conf{
+    position: relative;
+    margin: 20px;
+    text-decoration: none;
+    color: #ffffff;
 }
