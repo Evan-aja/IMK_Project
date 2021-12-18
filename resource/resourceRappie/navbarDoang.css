@@ -53,6 +53,9 @@ nav ul li a {
     padding: 0px 15px 0px 15px;
     font-size: 19px;
 }
+nav ul li:nth-child(4):hover a{
+    background-color: #8B7FDF !important;
+}
 
 a.block{
     background: #8B7FDF;
